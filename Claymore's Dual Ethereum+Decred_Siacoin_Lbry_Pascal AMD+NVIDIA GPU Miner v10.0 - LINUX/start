@@ -1,0 +1,11 @@
+GPU_FORCE_64BIT_PTR 0
+GPU_MAX_HEAP_SIZE 100
+GPU_USE_SYNC_OBJECTS 1
+GPU_MAX_ALLOC_PERCENT 100
+GPU_SINGLE_ALLOC_PERCENT 100
+./ethdcrminer64 -epool http://us.ubiqpool.io:8888/0x78C8ebB6434d0a165B7A2f1ad7b7447A9Aaae68a/VProz1 -epsw x -allcoins 1 
+
+
+#-dpool stratum+tcp://sia-us-east1.nanopool.org:7777 -dwal 7d8f8b65865d651aa9c4c51a626cbd13d9742f8f54709c0e8ed5488cdd402c43cb51f16ae503/VProz1 -dcoin sia
+
+

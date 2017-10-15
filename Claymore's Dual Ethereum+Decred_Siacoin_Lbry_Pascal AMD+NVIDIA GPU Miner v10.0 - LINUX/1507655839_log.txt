@@ -1,0 +1,292 @@
+13:17:19:683	9c8f5740	args: -epool http://us.ubiqpool.io:8888/0x78C8ebB6434d0a165B7A2f1ad7b7447A9Aaae68a/VProz1 -epsw x -allcoins 1 
+13:17:19:683	9c8f5740	
+13:17:19:683	9c8f5740	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+13:17:19:684	9c8f5740	บ     Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v10.0      บ
+13:17:19:684	9c8f5740	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+13:17:19:684	9c8f5740	
+13:17:19:885	9c8f5740	ETH: 1 pool is specified
+13:17:19:885	9c8f5740	Main Ethereum pool is us.ubiqpool.io:8888
+13:17:19:885	9c8f5740	DCR: 5 pools are specified
+13:17:19:885	9c8f5740	Main Decred pool is sia-eu1.nanopool.org:7777
+13:17:20:021	9c8f5740	OpenCL platform: NVIDIA CUDA
+13:17:20:021	9c8f5740	AMD OpenCL platform not found 
+13:17:20:034	9c8f5740	CUDA initializing...
+
+13:17:20:034	9c8f5740	NVIDIA Cards available: 2 
+13:17:20:034	9c8f5740	CUDA Driver Version/Runtime Version: 8.0/8.0
+13:17:20:038	9c8f5740	GPU #0: GeForce GTX 1070, 8112 MB available, 15 compute units, capability: 6.1
+
+13:17:20:039	9c8f5740	GPU #1: GeForce GTX 1070, 8114 MB available, 15 compute units, capability: 6.1
+
+13:17:20:039	9c8f5740	Total cards: 2 
+13:17:24:041	9c8f5740	No AMD cards in the list, ADL library will not be used.
+13:17:24:044	9c8f5740	NVML version: 8.375.66
+13:17:24:387	767fc700	ETH - connecting to us.ubiqpool.io:8888/0x78C8ebB6434d0a165B7A2f1ad7b7447A9Aaae68a/VProz1
+13:17:24:387	767fc700	http send request: {"jsonrpc":"2.0", "method": "eth_getWork", "params": [], "id":0}
+13:17:24:487	9c8f5740	DUAL MINING MODE ENABLED: ETHEREUM+DECRED
+13:17:24:488	9c8f5740	ETH: HTTP SOLO mode
+13:17:24:488	9c8f5740	Ethereum HTTP requests time (-etht) is set to 200 ms
+13:17:24:488	9c8f5740	"-allcoins" option is set, default pools will be used for devfee, check "Readme" file for details.
+13:17:24:488	9c8f5740	Watchdog enabled
+13:17:24:488	9c8f5740	Remote management (READ-ONLY MODE) is enabled on port 3333
+13:17:24:489	9c8f5740	
+13:17:24:511	75ffb700	 DCR: Stratum - connecting to 'sia-eu1.nanopool.org' <213.32.29.168> port 7777
+13:17:24:532	767fc700	http got answer: {"id":0,"jsonrpc":"2.0","result":["0xb4de6357989a4350a4449a33806ba74cac2bf0b557dee2cb72f16bacfbdab62b","0xc307e5620454e771052a14bea2468aa36e4d01104c1bb0589fb96c692da7cebc","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba"]}
+
+13:17:24:532	767fc700	ETH: Connected (us.ubiqpool.io:8888/0x78C8ebB6434d0a165B7A2f1ad7b7447A9Aaae68a/VProz1)
+13:17:24:532	767fc700	parse packet: 236
+13:17:24:532	767fc700	ETH: job changed
+13:17:24:532	767fc700	new buf size: 0
+13:17:24:591	84c9e700	Setting DAG epoch #8...
+13:17:24:636	75ffb700	send: {"id": 1, "method": "mining.subscribe", "params": ["dual 1.0"]}
+
+13:17:24:636	75ffb700	send: {"id": 5, "method": "mining.extranonce.subscribe", "params": []}
+
+13:17:24:636	75ffb700	send: {"id": 2, "method": "mining.authorize", "params": ["7d8f8b65865d651aa9c4c51a626cbd13d9742f8f54709c0e8ed5488cdd402c43cb51f16ae503/zachberling@gmail.com","x"]}
+
+13:17:24:636	75ffb700	 DCR: Stratum - Connected (sia-eu1.nanopool.org:7777)
+13:17:24:774	767fc700	parse packet: 236
+13:17:24:774	767fc700	ETH: job is the same
+13:17:24:774	767fc700	new buf size: 0
+13:17:25:031	767fc700	parse packet: 236
+13:17:25:031	767fc700	ETH: job is the same
+13:17:25:032	767fc700	new buf size: 0
+13:17:25:275	767fc700	parse packet: 236
+13:17:25:275	767fc700	ETH: job is the same
+13:17:25:275	767fc700	new buf size: 0
+13:17:25:520	767fc700	parse packet: 236
+13:17:25:521	767fc700	ETH: job is the same
+13:17:25:521	767fc700	new buf size: 0
+13:17:25:768	767fc700	parse packet: 236
+13:17:25:768	767fc700	ETH: job is the same
+13:17:25:768	767fc700	new buf size: 0
+13:17:25:886	76ffd700	Setting DAG epoch #8 for GPU1
+13:17:25:886	76ffd700	Create GPU buffer for GPU1
+13:17:25:888	84c9e700	Setting DAG epoch #8 for GPU0
+13:17:25:888	84c9e700	Create GPU buffer for GPU0
+13:17:26:015	767fc700	parse packet: 236
+13:17:26:015	767fc700	ETH: job is the same
+13:17:26:015	767fc700	new buf size: 0
+13:17:26:270	767fc700	parse packet: 236
+13:17:26:270	767fc700	ETH: job is the same
+13:17:26:270	767fc700	new buf size: 0
+13:17:26:526	767fc700	parse packet: 236
+13:17:26:526	767fc700	ETH: job is the same
+13:17:26:527	767fc700	new buf size: 0
+13:17:26:771	767fc700	parse packet: 236
+13:17:26:771	767fc700	ETH: job is the same
+13:17:26:772	767fc700	new buf size: 0
+13:17:27:017	767fc700	parse packet: 236
+13:17:27:017	767fc700	ETH: job is the same
+13:17:27:017	767fc700	new buf size: 0
+13:17:27:263	767fc700	parse packet: 236
+13:17:27:263	767fc700	ETH: job is the same
+13:17:27:263	767fc700	new buf size: 0
+13:17:27:518	767fc700	parse packet: 236
+13:17:27:518	767fc700	ETH: job is the same
+13:17:27:518	767fc700	new buf size: 0
+13:17:27:676	75ffb700	checkread timeout
+13:17:27:765	767fc700	parse packet: 236
+13:17:27:765	767fc700	ETH: job is the same
+13:17:27:765	767fc700	new buf size: 0
+13:17:28:009	767fc700	parse packet: 236
+13:17:28:009	767fc700	ETH: job is the same
+13:17:28:010	767fc700	new buf size: 0
+13:17:28:255	767fc700	parse packet: 236
+13:17:28:256	767fc700	ETH: job is the same
+13:17:28:256	767fc700	new buf size: 0
+13:17:28:502	767fc700	parse packet: 236
+13:17:28:502	767fc700	ETH: job is the same
+13:17:28:502	767fc700	new buf size: 0
+13:17:28:747	767fc700	parse packet: 236
+13:17:28:748	767fc700	ETH: job is the same
+13:17:28:748	767fc700	new buf size: 0
+13:17:28:993	767fc700	parse packet: 236
+13:17:28:993	767fc700	ETH: job is the same
+13:17:28:993	767fc700	new buf size: 0
+13:17:29:143	84c9e700	GPU0 DAG creation time - 3211 ms
+13:17:29:143	84c9e700	Setting DAG epoch #8 for GPU0 done
+13:17:29:211	76ffd700	GPU1 DAG creation time - 3282 ms
+13:17:29:211	76ffd700	Setting DAG epoch #8 for GPU1 done
+13:17:29:239	767fc700	parse packet: 236
+13:17:29:239	767fc700	ETH: job is the same
+13:17:29:239	767fc700	new buf size: 0
+13:17:29:483	767fc700	parse packet: 236
+13:17:29:484	767fc700	ETH: job is the same
+13:17:29:484	767fc700	new buf size: 0
+13:17:29:729	767fc700	parse packet: 236
+13:17:29:730	767fc700	ETH: job is the same
+13:17:29:730	767fc700	new buf size: 0
+13:17:29:730	767fc700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x32d46f9", "0x0000000000000000000000000000000000000000000000000000000026f6655b"]}
+
+13:17:29:771	767fc700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+13:17:30:017	767fc700	parse packet: 236
+13:17:30:017	767fc700	ETH: job is the same
+13:17:30:018	767fc700	new buf size: 0
+13:17:30:264	767fc700	parse packet: 236
+13:17:30:264	767fc700	ETH: job is the same
+13:17:30:264	767fc700	new buf size: 0
+13:17:30:509	767fc700	parse packet: 236
+13:17:30:509	767fc700	ETH: job is the same
+13:17:30:509	767fc700	new buf size: 0
+13:17:30:717	75ffb700	checkread timeout
+13:17:30:749	767fc700	parse packet: 236
+13:17:30:749	767fc700	ETH: job is the same
+13:17:30:749	767fc700	new buf size: 0
+13:17:30:993	767fc700	parse packet: 236
+13:17:30:993	767fc700	ETH: job is the same
+13:17:30:993	767fc700	new buf size: 0
+13:17:31:237	767fc700	parse packet: 236
+13:17:31:237	767fc700	ETH: job is the same
+13:17:31:238	767fc700	new buf size: 0
+13:17:31:483	767fc700	parse packet: 236
+13:17:31:483	767fc700	ETH: job is the same
+13:17:31:484	767fc700	new buf size: 0
+13:17:31:764	767fc700	parse packet: 236
+13:17:31:764	767fc700	ETH: job is the same
+13:17:31:764	767fc700	new buf size: 0
+13:17:32:009	767fc700	parse packet: 236
+13:17:32:009	767fc700	ETH: job is the same
+13:17:32:009	767fc700	new buf size: 0
+13:17:32:254	767fc700	parse packet: 236
+13:17:32:254	767fc700	ETH: job is the same
+13:17:32:255	767fc700	new buf size: 0
+13:17:32:499	767fc700	parse packet: 236
+13:17:32:499	767fc700	ETH: job is the same
+13:17:32:500	767fc700	new buf size: 0
+13:17:32:749	767fc700	parse packet: 236
+13:17:32:749	767fc700	ETH: job is the same
+13:17:32:750	767fc700	new buf size: 0
+13:17:32:991	767fc700	parse packet: 236
+13:17:32:991	767fc700	ETH: job is the same
+13:17:32:992	767fc700	new buf size: 0
+13:17:33:237	767fc700	parse packet: 236
+13:17:33:238	767fc700	ETH: job is the same
+13:17:33:238	767fc700	new buf size: 0
+13:17:33:480	767fc700	parse packet: 236
+13:17:33:480	767fc700	ETH: job is the same
+13:17:33:480	767fc700	new buf size: 0
+13:17:33:725	767fc700	parse packet: 236
+13:17:33:725	767fc700	ETH: job is the same
+13:17:33:726	767fc700	new buf size: 0
+13:17:33:757	75ffb700	checkread timeout
+13:17:33:974	767fc700	parse packet: 236
+13:17:33:975	767fc700	ETH: job is the same
+13:17:33:975	767fc700	new buf size: 0
+13:17:34:219	767fc700	parse packet: 236
+13:17:34:219	767fc700	ETH: job is the same
+13:17:34:219	767fc700	new buf size: 0
+13:17:34:465	767fc700	parse packet: 236
+13:17:34:465	767fc700	ETH: job is the same
+13:17:34:466	767fc700	new buf size: 0
+13:17:34:711	767fc700	parse packet: 236
+13:17:34:711	767fc700	ETH: job is the same
+13:17:34:711	767fc700	new buf size: 0
+13:17:34:951	767fc700	parse packet: 236
+13:17:34:952	767fc700	ETH: job is the same
+13:17:34:952	767fc700	new buf size: 0
+13:17:34:952	767fc700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x32e5dfd", "0x0000000000000000000000000000000000000000000000000000000026f6655b"]}
+
+13:17:34:993	767fc700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+13:17:35:237	767fc700	parse packet: 236
+13:17:35:237	767fc700	ETH: job is the same
+13:17:35:237	767fc700	new buf size: 0
+13:17:35:477	767fc700	parse packet: 236
+13:17:35:477	767fc700	ETH: job is the same
+13:17:35:477	767fc700	new buf size: 0
+13:17:35:723	767fc700	parse packet: 236
+13:17:35:723	767fc700	ETH: job is the same
+13:17:35:723	767fc700	new buf size: 0
+13:17:35:967	767fc700	parse packet: 236
+13:17:35:967	767fc700	ETH: job is the same
+13:17:35:967	767fc700	new buf size: 0
+13:17:36:211	767fc700	parse packet: 236
+13:17:36:211	767fc700	ETH: job is the same
+13:17:36:212	767fc700	new buf size: 0
+13:17:36:457	767fc700	parse packet: 236
+13:17:36:458	767fc700	ETH: job is the same
+13:17:36:458	767fc700	new buf size: 0
+13:17:36:715	767fc700	parse packet: 236
+13:17:36:715	767fc700	ETH: job is the same
+13:17:36:715	767fc700	new buf size: 0
+13:17:36:796	75ffb700	checkread timeout
+13:17:36:963	767fc700	parse packet: 236
+13:17:36:963	767fc700	ETH: job is the same
+13:17:36:963	767fc700	new buf size: 0
+13:17:37:207	767fc700	parse packet: 236
+13:17:37:207	767fc700	ETH: job is the same
+13:17:37:207	767fc700	new buf size: 0
+13:17:37:454	767fc700	parse packet: 236
+13:17:37:454	767fc700	ETH: job is the same
+13:17:37:454	767fc700	new buf size: 0
+13:17:37:703	767fc700	parse packet: 236
+13:17:37:703	767fc700	ETH: job is the same
+13:17:37:703	767fc700	new buf size: 0
+13:17:37:948	767fc700	parse packet: 236
+13:17:37:948	767fc700	ETH: job is the same
+13:17:37:948	767fc700	new buf size: 0
+13:17:38:195	767fc700	parse packet: 236
+13:17:38:196	767fc700	ETH: job is the same
+13:17:38:196	767fc700	new buf size: 0
+13:17:38:445	767fc700	parse packet: 236
+13:17:38:445	767fc700	ETH: job is the same
+13:17:38:445	767fc700	new buf size: 0
+13:17:38:689	767fc700	parse packet: 236
+13:17:38:690	767fc700	ETH: job is the same
+13:17:38:690	767fc700	new buf size: 0
+13:17:38:935	767fc700	parse packet: 236
+13:17:38:935	767fc700	ETH: job is the same
+13:17:38:935	767fc700	new buf size: 0
+13:17:39:107	75ffb700	got 377 bytes
+13:17:39:108	75ffb700	buf: {"jsonrpc":"2.0","id":1,"result":true}
+{"id":6,"jsonrpc":"2.0","params":["0","0x000000000000003267e2495f880e4daeae7407d562cebe3d02bbeb9ebeea10a300000000000000009d00dd5900000000ad0d5b014e557de660b50b9f1b7b3665419ce442f296ed702a215f4ad8fbe061","0x0000000007547ff5d321871ff4fb4f118b8d13a30a1ff7b317f3c5b20629578a"],"method":"mining.notify"}
+{"jsonrpc":"2.0","id":2,"result":true}
+
+13:17:39:108	75ffb700	parse packet: 38
+13:17:39:108	75ffb700	 DCR: Failed to get nonce1 at handshaking
+13:17:39:108	75ffb700	remove first packet 338
+13:17:39:108	75ffb700	new buf size: 338
+13:17:39:108	75ffb700	parse packet: 298
+13:17:39:108	75ffb700	remove first packet 39
+13:17:39:108	75ffb700	new buf size: 39
+13:17:39:108	75ffb700	parse packet: 38
+13:17:39:108	75ffb700	 DCR: Authorized
+13:17:39:108	75ffb700	new buf size: 0
+13:17:39:118	75ffb700	got 299 bytes
+13:17:39:119	75ffb700	buf: {"id":6,"jsonrpc":"2.0","params":["1","0x000000000000003267e2495f880e4daeae7407d562cebe3d02bbeb9ebeea10a300000000000000009d00dd59000000008c2c52cf6eebbd752caefae1f71bfffa2179f9cf060d5bb59cd1213c10767a13","0x0000000007547ff5d321871ff4fb4f118b8d13a30a1ff7b317f3c5b20629578a"],"method":"mining.notify"}
+
+13:17:39:119	75ffb700	parse packet: 298
+13:17:39:119	75ffb700	new buf size: 0
+13:17:39:183	767fc700	parse packet: 236
+13:17:39:183	767fc700	ETH: job is the same
+13:17:39:183	767fc700	new buf size: 0
+13:17:39:427	767fc700	parse packet: 236
+13:17:39:427	767fc700	ETH: job is the same
+13:17:39:428	767fc700	new buf size: 0
+13:17:39:675	767fc700	parse packet: 236
+13:17:39:675	767fc700	ETH: job is the same
+13:17:39:675	767fc700	new buf size: 0
+13:17:39:924	767fc700	parse packet: 236
+13:17:39:924	767fc700	ETH: job is the same
+13:17:39:924	767fc700	new buf size: 0
+13:17:40:169	767fc700	parse packet: 236
+13:17:40:169	767fc700	ETH: job is the same
+13:17:40:170	767fc700	new buf size: 0
+13:17:40:170	767fc700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x32d827a", "0x0000000000000000000000000000000000000000000000000000000026f6655b"]}
+
+13:17:40:211	767fc700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+13:17:40:457	767fc700	parse packet: 236
+13:17:40:457	767fc700	ETH: job is the same
+13:17:40:458	767fc700	new buf size: 0
+13:17:40:705	767fc700	parse packet: 236
+13:17:40:705	767fc700	ETH: job is the same
+13:17:40:706	767fc700	new buf size: 0
+13:17:40:947	767fc700	parse packet: 236
+13:17:40:948	767fc700	ETH: job is the same
+13:17:40:948	767fc700	new buf size: 0
+13:17:41:193	767fc700	parse packet: 236
+13:17:41:194	767fc700	ETH: job is the same
+13:17:41:194	767fc700	new buf size: 0

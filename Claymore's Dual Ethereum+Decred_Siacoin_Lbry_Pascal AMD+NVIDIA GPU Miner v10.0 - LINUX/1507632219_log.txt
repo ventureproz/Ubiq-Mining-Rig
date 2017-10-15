@@ -1,0 +1,1766 @@
+06:43:39:002	bbf8a740	args: -epool http://us.ubiqpool.io:8888/0x78C8ebB6434d0a165B7A2f1ad7b7447A9Aaae68a/VProz1 -epsw x -allcoins 1 -dpool stratum+tcp://sia-us-east1.nanopool.org:7777 -dwal 7d8f8b65865d651aa9c4c51a626cbd13d9742f8f54709c0e8ed5488cdd402c43cb51f16ae503/Vproz1/zachberling@gmail.com -dcoin sia 
+06:43:39:002	bbf8a740	
+06:43:39:002	bbf8a740	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+06:43:39:003	bbf8a740	บ     Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v10.0      บ
+06:43:39:003	bbf8a740	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+06:43:39:003	bbf8a740	
+06:43:39:203	bbf8a740	ETH: 1 pool is specified
+06:43:39:203	bbf8a740	Main Ethereum pool is us.ubiqpool.io:8888
+06:43:39:203	bbf8a740	SC: 1 pool is specified
+06:43:39:203	bbf8a740	Main Siacoin pool is sia-us-east1.nanopool.org:7777
+06:43:39:293	bbf8a740	OpenCL platform: NVIDIA CUDA
+06:43:39:293	bbf8a740	AMD OpenCL platform not found 
+06:43:39:304	bbf8a740	CUDA initializing...
+
+06:43:39:304	bbf8a740	NVIDIA Cards available: 2 
+06:43:39:304	bbf8a740	CUDA Driver Version/Runtime Version: 8.0/8.0
+06:43:39:307	bbf8a740	GPU #0: GeForce GTX 1070, 8112 MB available, 15 compute units, capability: 6.1
+
+06:43:39:307	bbf8a740	GPU #1: GeForce GTX 1070, 8114 MB available, 15 compute units, capability: 6.1
+
+06:43:39:307	bbf8a740	Total cards: 2 
+06:43:43:308	bbf8a740	No AMD cards in the list, ADL library will not be used.
+06:43:43:309	bbf8a740	NVML version: 8.375.66
+06:43:43:603	95ffb700	ETH - connecting to us.ubiqpool.io:8888/0x78C8ebB6434d0a165B7A2f1ad7b7447A9Aaae68a/VProz1
+06:43:43:603	95ffb700	http send request: {"jsonrpc":"2.0", "method": "eth_getWork", "params": [], "id":0}
+06:43:43:703	bbf8a740	DUAL MINING MODE ENABLED: ETHEREUM+SIACOIN
+06:43:43:704	bbf8a740	ETH: HTTP SOLO mode
+06:43:43:704	bbf8a740	Ethereum HTTP requests time (-etht) is set to 200 ms
+06:43:43:704	bbf8a740	"-allcoins" option is set, default pools will be used for devfee, check "Readme" file for details.
+06:43:43:704	bbf8a740	Watchdog enabled
+06:43:43:704	bbf8a740	Remote management (READ-ONLY MODE) is enabled on port 3333
+06:43:43:705	bbf8a740	
+06:43:43:721	94bef700	 SC: Stratum - connecting to 'sia-us-east1.nanopool.org' <192.99.69.170> port 7777
+06:43:43:760	94bef700	send: {"id": 1, "method": "mining.subscribe", "params": []}
+
+06:43:43:760	94bef700	send: {"id": 5, "method": "mining.extranonce.subscribe", "params": []}
+
+06:43:43:760	94bef700	send: {"id": 2, "method": "mining.authorize", "params": ["7d8f8b65865d651aa9c4c51a626cbd13d9742f8f54709c0e8ed5488cdd402c43cb51f16ae503/Vproz1/zachberling@gmail.com",""]}
+
+06:43:43:760	94bef700	 SC: Stratum - Connected (sia-us-east1.nanopool.org:7777)
+06:43:43:819	95ffb700	http got answer: {"id":0,"jsonrpc":"2.0","result":["0x6f9ed5c56b3323e70f404fbdcdce2a1b445a99bc615dc2414d9a319093109ee5","0xc307e5620454e771052a14bea2468aa36e4d01104c1bb0589fb96c692da7cebc","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba"]}
+
+06:43:43:819	95ffb700	ETH: Connected (us.ubiqpool.io:8888/0x78C8ebB6434d0a165B7A2f1ad7b7447A9Aaae68a/VProz1)
+06:43:43:820	95ffb700	parse packet: 236
+06:43:43:820	95ffb700	ETH: job changed
+06:43:43:820	95ffb700	new buf size: 0
+06:43:43:908	977fe700	Setting DAG epoch #8...
+06:43:43:973	94bef700	got 676 bytes
+06:43:43:973	94bef700	buf: {"jsonrpc":"2.0","id":1,"result":true}
+{"id":6,"jsonrpc":"2.0","params":["0","0x000000000000001ec379bfe8ae5a7934d6bbf6e4a348b61ad58341d0789b578e00000000000000003da4dc59000000002b74bc238100149ce11f2b663c02d11e978b5af54762cdd7bd648d4f44cd00f4","0x0000000007547ff5d321871ff4fb4f118b8d13a30a1ff7b317f3c5b20629578a"],"method":"mining.notify"}
+{"jsonrpc":"2.0","id":2,"result":true}
+{"id":6,"jsonrpc":"2.0","params":["1","0x000000000000001ec379bfe8ae5a7934d6bbf6e4a348b61ad58341d0789b578e00000000000000003da4dc590000000015b9a64ce155722c87bde1de486eae62530b6776d3dc3cddaf36cd879a65d012","0x0000000007547ff5d321871ff4fb4f118b8d13a30a1ff7b317f3c5b20629578a"],"method":"mining.notify"}
+
+06:43:43:973	94bef700	parse packet: 38
+06:43:43:973	94bef700	remove first packet 637
+06:43:43:973	94bef700	new buf size: 637
+06:43:43:973	94bef700	parse packet: 298
+06:43:43:973	94bef700	sc: job changed
+06:43:43:973	94bef700	remove first packet 338
+06:43:43:973	94bef700	new buf size: 338
+06:43:43:973	94bef700	parse packet: 38
+06:43:43:973	94bef700	 SC: Authorized
+06:43:43:973	94bef700	remove first packet 299
+06:43:43:973	94bef700	new buf size: 299
+06:43:43:973	94bef700	parse packet: 298
+06:43:43:973	94bef700	sc: job changed
+06:43:43:973	94bef700	new buf size: 0
+06:43:44:065	95ffb700	parse packet: 236
+06:43:44:065	95ffb700	ETH: job is the same
+06:43:44:065	95ffb700	new buf size: 0
+06:43:44:308	95ffb700	parse packet: 236
+06:43:44:308	95ffb700	ETH: job is the same
+06:43:44:308	95ffb700	new buf size: 0
+06:43:44:552	95ffb700	parse packet: 236
+06:43:44:552	95ffb700	ETH: job is the same
+06:43:44:552	95ffb700	new buf size: 0
+06:43:44:796	95ffb700	parse packet: 236
+06:43:44:796	95ffb700	ETH: job is the same
+06:43:44:796	95ffb700	new buf size: 0
+06:43:45:040	95ffb700	parse packet: 236
+06:43:45:041	95ffb700	ETH: job is the same
+06:43:45:041	95ffb700	new buf size: 0
+06:43:45:216	967fc700	Setting DAG epoch #8 for GPU1
+06:43:45:216	967fc700	Create GPU buffer for GPU1
+06:43:45:220	977fe700	Setting DAG epoch #8 for GPU0
+06:43:45:220	977fe700	Create GPU buffer for GPU0
+06:43:45:288	95ffb700	parse packet: 236
+06:43:45:288	95ffb700	ETH: job is the same
+06:43:45:288	95ffb700	new buf size: 0
+06:43:45:533	95ffb700	parse packet: 236
+06:43:45:533	95ffb700	ETH: job is the same
+06:43:45:533	95ffb700	new buf size: 0
+06:43:45:786	95ffb700	parse packet: 236
+06:43:45:786	95ffb700	ETH: job is the same
+06:43:45:787	95ffb700	new buf size: 0
+06:43:46:030	95ffb700	parse packet: 236
+06:43:46:031	95ffb700	ETH: job is the same
+06:43:46:031	95ffb700	new buf size: 0
+06:43:46:276	95ffb700	parse packet: 236
+06:43:46:276	95ffb700	ETH: job is the same
+06:43:46:276	95ffb700	new buf size: 0
+06:43:46:525	95ffb700	parse packet: 236
+06:43:46:525	95ffb700	ETH: job is the same
+06:43:46:525	95ffb700	new buf size: 0
+06:43:46:774	95ffb700	parse packet: 236
+06:43:46:774	95ffb700	ETH: job is the same
+06:43:46:774	95ffb700	new buf size: 0
+06:43:47:014	95ffb700	parse packet: 236
+06:43:47:015	95ffb700	ETH: job is the same
+06:43:47:015	95ffb700	new buf size: 0
+06:43:47:258	95ffb700	parse packet: 236
+06:43:47:258	95ffb700	ETH: job is the same
+06:43:47:258	95ffb700	new buf size: 0
+06:43:47:502	95ffb700	parse packet: 236
+06:43:47:502	95ffb700	ETH: job is the same
+06:43:47:502	95ffb700	new buf size: 0
+06:43:47:748	95ffb700	parse packet: 236
+06:43:47:748	95ffb700	ETH: job is the same
+06:43:47:748	95ffb700	new buf size: 0
+06:43:47:992	95ffb700	parse packet: 236
+06:43:47:992	95ffb700	ETH: job is the same
+06:43:47:992	95ffb700	new buf size: 0
+06:43:48:245	95ffb700	parse packet: 236
+06:43:48:245	95ffb700	ETH: job is the same
+06:43:48:245	95ffb700	new buf size: 0
+06:43:48:475	977fe700	GPU0 DAG creation time - 3211 ms
+06:43:48:475	977fe700	Setting DAG epoch #8 for GPU0 done
+06:43:48:486	95ffb700	parse packet: 236
+06:43:48:486	95ffb700	ETH: job is the same
+06:43:48:486	95ffb700	new buf size: 0
+06:43:48:545	967fc700	GPU1 DAG creation time - 3286 ms
+06:43:48:545	967fc700	Setting DAG epoch #8 for GPU1 done
+06:43:48:730	95ffb700	parse packet: 236
+06:43:48:730	95ffb700	ETH: job is the same
+06:43:48:730	95ffb700	new buf size: 0
+06:43:48:974	95ffb700	parse packet: 236
+06:43:48:974	95ffb700	ETH: job is the same
+06:43:48:974	95ffb700	new buf size: 0
+06:43:48:975	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x32a24b7", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:43:49:012	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:43:49:262	95ffb700	parse packet: 236
+06:43:49:263	95ffb700	ETH: job is the same
+06:43:49:263	95ffb700	new buf size: 0
+06:43:49:506	95ffb700	parse packet: 236
+06:43:49:506	95ffb700	ETH: job is the same
+06:43:49:506	95ffb700	new buf size: 0
+06:43:49:750	95ffb700	parse packet: 236
+06:43:49:750	95ffb700	ETH: job is the same
+06:43:49:750	95ffb700	new buf size: 0
+06:43:49:994	95ffb700	parse packet: 236
+06:43:49:994	95ffb700	ETH: job is the same
+06:43:49:994	95ffb700	new buf size: 0
+06:43:50:242	95ffb700	parse packet: 236
+06:43:50:242	95ffb700	ETH: job is the same
+06:43:50:242	95ffb700	new buf size: 0
+06:43:50:486	95ffb700	parse packet: 236
+06:43:50:486	95ffb700	ETH: job is the same
+06:43:50:486	95ffb700	new buf size: 0
+06:43:50:730	95ffb700	parse packet: 236
+06:43:50:730	95ffb700	ETH: job is the same
+06:43:50:730	95ffb700	new buf size: 0
+06:43:50:974	95ffb700	parse packet: 236
+06:43:50:974	95ffb700	ETH: job is the same
+06:43:50:974	95ffb700	new buf size: 0
+06:43:51:218	95ffb700	parse packet: 236
+06:43:51:218	95ffb700	ETH: job is the same
+06:43:51:218	95ffb700	new buf size: 0
+06:43:51:468	95ffb700	parse packet: 236
+06:43:51:468	95ffb700	ETH: job is the same
+06:43:51:468	95ffb700	new buf size: 0
+06:43:51:712	95ffb700	parse packet: 236
+06:43:51:712	95ffb700	ETH: job is the same
+06:43:51:712	95ffb700	new buf size: 0
+06:43:51:956	95ffb700	parse packet: 236
+06:43:51:956	95ffb700	ETH: job is the same
+06:43:51:956	95ffb700	new buf size: 0
+06:43:52:196	95ffb700	parse packet: 236
+06:43:52:196	95ffb700	ETH: job is the same
+06:43:52:196	95ffb700	new buf size: 0
+06:43:52:448	95ffb700	parse packet: 236
+06:43:52:448	95ffb700	ETH: job is the same
+06:43:52:448	95ffb700	new buf size: 0
+06:43:52:692	95ffb700	parse packet: 236
+06:43:52:693	95ffb700	ETH: job is the same
+06:43:52:693	95ffb700	new buf size: 0
+06:43:52:939	95ffb700	parse packet: 236
+06:43:52:939	95ffb700	ETH: job is the same
+06:43:52:939	95ffb700	new buf size: 0
+06:43:53:183	95ffb700	parse packet: 236
+06:43:53:183	95ffb700	ETH: job is the same
+06:43:53:183	95ffb700	new buf size: 0
+06:43:53:431	95ffb700	parse packet: 236
+06:43:53:431	95ffb700	ETH: job is the same
+06:43:53:431	95ffb700	new buf size: 0
+06:43:53:676	95ffb700	parse packet: 236
+06:43:53:676	95ffb700	ETH: job is the same
+06:43:53:676	95ffb700	new buf size: 0
+06:43:53:920	95ffb700	parse packet: 236
+06:43:53:920	95ffb700	ETH: job is the same
+06:43:53:920	95ffb700	new buf size: 0
+06:43:54:181	95ffb700	parse packet: 236
+06:43:54:181	95ffb700	ETH: job is the same
+06:43:54:181	95ffb700	new buf size: 0
+06:43:54:181	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x32a750f", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:43:54:222	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:43:54:463	95ffb700	parse packet: 236
+06:43:54:463	95ffb700	ETH: job is the same
+06:43:54:463	95ffb700	new buf size: 0
+06:43:54:706	95ffb700	parse packet: 236
+06:43:54:706	95ffb700	ETH: job is the same
+06:43:54:707	95ffb700	new buf size: 0
+06:43:54:950	95ffb700	parse packet: 236
+06:43:54:950	95ffb700	ETH: job is the same
+06:43:54:950	95ffb700	new buf size: 0
+06:43:55:194	95ffb700	parse packet: 236
+06:43:55:194	95ffb700	ETH: job is the same
+06:43:55:194	95ffb700	new buf size: 0
+06:43:55:440	95ffb700	parse packet: 236
+06:43:55:440	95ffb700	ETH: job is the same
+06:43:55:440	95ffb700	new buf size: 0
+06:43:55:685	95ffb700	parse packet: 236
+06:43:55:685	95ffb700	ETH: job is the same
+06:43:55:685	95ffb700	new buf size: 0
+06:43:55:930	95ffb700	parse packet: 236
+06:43:55:930	95ffb700	ETH: job is the same
+06:43:55:930	95ffb700	new buf size: 0
+06:43:56:174	95ffb700	parse packet: 236
+06:43:56:174	95ffb700	ETH: job is the same
+06:43:56:174	95ffb700	new buf size: 0
+06:43:56:418	95ffb700	parse packet: 236
+06:43:56:418	95ffb700	ETH: job is the same
+06:43:56:419	95ffb700	new buf size: 0
+06:43:56:663	95ffb700	parse packet: 236
+06:43:56:663	95ffb700	ETH: job is the same
+06:43:56:663	95ffb700	new buf size: 0
+06:43:56:903	95ffb700	parse packet: 236
+06:43:56:903	95ffb700	ETH: job is the same
+06:43:56:903	95ffb700	new buf size: 0
+06:43:57:146	95ffb700	parse packet: 236
+06:43:57:146	95ffb700	ETH: job is the same
+06:43:57:146	95ffb700	new buf size: 0
+06:43:57:387	95ffb700	parse packet: 236
+06:43:57:387	95ffb700	ETH: job is the same
+06:43:57:387	95ffb700	new buf size: 0
+06:43:57:629	95ffb700	parse packet: 236
+06:43:57:629	95ffb700	ETH: job is the same
+06:43:57:629	95ffb700	new buf size: 0
+06:43:57:870	95ffb700	parse packet: 236
+06:43:57:870	95ffb700	ETH: job is the same
+06:43:57:870	95ffb700	new buf size: 0
+06:43:58:114	95ffb700	parse packet: 236
+06:43:58:114	95ffb700	ETH: job is the same
+06:43:58:114	95ffb700	new buf size: 0
+06:43:58:359	95ffb700	parse packet: 236
+06:43:58:359	95ffb700	ETH: job is the same
+06:43:58:359	95ffb700	new buf size: 0
+06:43:58:604	95ffb700	parse packet: 236
+06:43:58:604	95ffb700	ETH: job is the same
+06:43:58:604	95ffb700	new buf size: 0
+06:43:58:845	95ffb700	parse packet: 236
+06:43:58:845	95ffb700	ETH: job is the same
+06:43:58:845	95ffb700	new buf size: 0
+06:43:59:090	95ffb700	parse packet: 236
+06:43:59:090	95ffb700	ETH: job is the same
+06:43:59:090	95ffb700	new buf size: 0
+06:43:59:332	95ffb700	parse packet: 236
+06:43:59:333	95ffb700	ETH: job is the same
+06:43:59:333	95ffb700	new buf size: 0
+06:43:59:333	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x32a66de", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:43:59:370	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:43:59:613	95ffb700	parse packet: 236
+06:43:59:613	95ffb700	ETH: job is the same
+06:43:59:613	95ffb700	new buf size: 0
+06:43:59:856	95ffb700	parse packet: 236
+06:43:59:856	95ffb700	ETH: job is the same
+06:43:59:856	95ffb700	new buf size: 0
+06:44:00:100	95ffb700	parse packet: 236
+06:44:00:100	95ffb700	ETH: job is the same
+06:44:00:100	95ffb700	new buf size: 0
+06:44:00:348	95ffb700	parse packet: 236
+06:44:00:348	95ffb700	ETH: job is the same
+06:44:00:348	95ffb700	new buf size: 0
+06:44:00:592	95ffb700	parse packet: 236
+06:44:00:592	95ffb700	ETH: job is the same
+06:44:00:592	95ffb700	new buf size: 0
+06:44:00:836	95ffb700	parse packet: 236
+06:44:00:836	95ffb700	ETH: job is the same
+06:44:00:836	95ffb700	new buf size: 0
+06:44:01:080	95ffb700	parse packet: 236
+06:44:01:080	95ffb700	ETH: job is the same
+06:44:01:080	95ffb700	new buf size: 0
+06:44:01:325	95ffb700	parse packet: 236
+06:44:01:325	95ffb700	ETH: job is the same
+06:44:01:325	95ffb700	new buf size: 0
+06:44:01:570	95ffb700	parse packet: 236
+06:44:01:570	95ffb700	ETH: job is the same
+06:44:01:570	95ffb700	new buf size: 0
+06:44:01:814	95ffb700	parse packet: 236
+06:44:01:814	95ffb700	ETH: job is the same
+06:44:01:814	95ffb700	new buf size: 0
+06:44:02:058	95ffb700	parse packet: 236
+06:44:02:058	95ffb700	ETH: job is the same
+06:44:02:059	95ffb700	new buf size: 0
+06:44:02:302	95ffb700	parse packet: 236
+06:44:02:302	95ffb700	ETH: job is the same
+06:44:02:302	95ffb700	new buf size: 0
+06:44:02:546	95ffb700	parse packet: 236
+06:44:02:546	95ffb700	ETH: job is the same
+06:44:02:546	95ffb700	new buf size: 0
+06:44:02:790	95ffb700	parse packet: 236
+06:44:02:790	95ffb700	ETH: job is the same
+06:44:02:790	95ffb700	new buf size: 0
+06:44:03:030	95ffb700	parse packet: 236
+06:44:03:031	95ffb700	ETH: job is the same
+06:44:03:031	95ffb700	new buf size: 0
+06:44:03:275	95ffb700	parse packet: 236
+06:44:03:275	95ffb700	ETH: job is the same
+06:44:03:275	95ffb700	new buf size: 0
+06:44:03:519	95ffb700	parse packet: 236
+06:44:03:519	95ffb700	ETH: job is the same
+06:44:03:519	95ffb700	new buf size: 0
+06:44:03:761	95ffb700	parse packet: 236
+06:44:03:761	95ffb700	ETH: job is the same
+06:44:03:761	95ffb700	new buf size: 0
+06:44:04:011	95ffb700	parse packet: 236
+06:44:04:011	95ffb700	ETH: job is the same
+06:44:04:011	95ffb700	new buf size: 0
+06:44:04:255	95ffb700	parse packet: 236
+06:44:04:256	95ffb700	ETH: job is the same
+06:44:04:256	95ffb700	new buf size: 0
+06:44:04:505	95ffb700	parse packet: 236
+06:44:04:505	95ffb700	ETH: job is the same
+06:44:04:505	95ffb700	new buf size: 0
+06:44:04:505	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x329fc14", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:44:04:546	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:44:04:801	95ffb700	parse packet: 236
+06:44:04:801	95ffb700	ETH: job is the same
+06:44:04:801	95ffb700	new buf size: 0
+06:44:05:043	95ffb700	parse packet: 236
+06:44:05:043	95ffb700	ETH: job is the same
+06:44:05:043	95ffb700	new buf size: 0
+06:44:05:299	95ffb700	parse packet: 236
+06:44:05:299	95ffb700	ETH: job is the same
+06:44:05:299	95ffb700	new buf size: 0
+06:44:05:543	95ffb700	parse packet: 236
+06:44:05:543	95ffb700	ETH: job is the same
+06:44:05:543	95ffb700	new buf size: 0
+06:44:05:790	95ffb700	parse packet: 236
+06:44:05:790	95ffb700	ETH: job is the same
+06:44:05:790	95ffb700	new buf size: 0
+06:44:06:030	95ffb700	parse packet: 236
+06:44:06:030	95ffb700	ETH: job is the same
+06:44:06:031	95ffb700	new buf size: 0
+06:44:06:274	95ffb700	parse packet: 236
+06:44:06:275	95ffb700	ETH: job is the same
+06:44:06:275	95ffb700	new buf size: 0
+06:44:06:520	95ffb700	parse packet: 236
+06:44:06:520	95ffb700	ETH: job is the same
+06:44:06:520	95ffb700	new buf size: 0
+06:44:06:764	95ffb700	parse packet: 236
+06:44:06:765	95ffb700	ETH: job is the same
+06:44:06:765	95ffb700	new buf size: 0
+06:44:07:015	95ffb700	parse packet: 236
+06:44:07:015	95ffb700	ETH: job is the same
+06:44:07:015	95ffb700	new buf size: 0
+06:44:07:259	95ffb700	parse packet: 236
+06:44:07:259	95ffb700	ETH: job is the same
+06:44:07:259	95ffb700	new buf size: 0
+06:44:07:504	95ffb700	parse packet: 236
+06:44:07:504	95ffb700	ETH: job is the same
+06:44:07:504	95ffb700	new buf size: 0
+06:44:07:759	95ffb700	parse packet: 236
+06:44:07:759	95ffb700	ETH: job is the same
+06:44:07:759	95ffb700	new buf size: 0
+06:44:08:004	95ffb700	parse packet: 236
+06:44:08:004	95ffb700	ETH: job is the same
+06:44:08:005	95ffb700	new buf size: 0
+06:44:08:248	95ffb700	parse packet: 236
+06:44:08:248	95ffb700	ETH: job is the same
+06:44:08:248	95ffb700	new buf size: 0
+06:44:08:492	95ffb700	parse packet: 236
+06:44:08:492	95ffb700	ETH: job is the same
+06:44:08:492	95ffb700	new buf size: 0
+06:44:08:736	95ffb700	parse packet: 236
+06:44:08:736	95ffb700	ETH: job is the same
+06:44:08:736	95ffb700	new buf size: 0
+06:44:08:988	95ffb700	parse packet: 236
+06:44:08:988	95ffb700	ETH: job is the same
+06:44:08:988	95ffb700	new buf size: 0
+06:44:09:233	95ffb700	parse packet: 236
+06:44:09:233	95ffb700	ETH: job is the same
+06:44:09:233	95ffb700	new buf size: 0
+06:44:09:241	b505c700	GPU0 t=44C fan=80%, GPU1 t=45C fan=80%
+06:44:09:241	b505c700	em hbt: 7, dm hbt: 1, fm hbt: 16, 
+06:44:09:241	b505c700	watchdog - thread 0 (gpu0), hb time 46
+06:44:09:241	b505c700	watchdog - thread 1 (gpu0), hb time 158
+06:44:09:241	b505c700	watchdog - thread 2 (gpu1), hb time 183
+06:44:09:241	b505c700	watchdog - thread 3 (gpu1), hb time 72
+06:44:09:476	95ffb700	parse packet: 236
+06:44:09:477	95ffb700	ETH: job is the same
+06:44:09:477	95ffb700	new buf size: 0
+06:44:09:720	95ffb700	parse packet: 236
+06:44:09:721	95ffb700	ETH: job is the same
+06:44:09:721	95ffb700	new buf size: 0
+06:44:09:721	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x32a7d23", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:44:09:763	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:44:10:012	95ffb700	parse packet: 236
+06:44:10:013	95ffb700	ETH: job is the same
+06:44:10:013	95ffb700	new buf size: 0
+06:44:10:256	95ffb700	parse packet: 236
+06:44:10:257	95ffb700	ETH: job is the same
+06:44:10:257	95ffb700	new buf size: 0
+06:44:10:501	95ffb700	parse packet: 236
+06:44:10:501	95ffb700	ETH: job is the same
+06:44:10:501	95ffb700	new buf size: 0
+06:44:10:744	95ffb700	parse packet: 236
+06:44:10:744	95ffb700	ETH: job is the same
+06:44:10:744	95ffb700	new buf size: 0
+06:44:10:988	95ffb700	parse packet: 236
+06:44:10:988	95ffb700	ETH: job is the same
+06:44:10:988	95ffb700	new buf size: 0
+06:44:11:234	95ffb700	parse packet: 236
+06:44:11:234	95ffb700	ETH: job is the same
+06:44:11:234	95ffb700	new buf size: 0
+06:44:11:486	95ffb700	parse packet: 236
+06:44:11:486	95ffb700	ETH: job is the same
+06:44:11:486	95ffb700	new buf size: 0
+06:44:11:731	95ffb700	parse packet: 236
+06:44:11:731	95ffb700	ETH: job is the same
+06:44:11:731	95ffb700	new buf size: 0
+06:44:11:974	95ffb700	parse packet: 236
+06:44:11:974	95ffb700	ETH: job is the same
+06:44:11:974	95ffb700	new buf size: 0
+06:44:12:218	95ffb700	parse packet: 236
+06:44:12:218	95ffb700	ETH: job is the same
+06:44:12:219	95ffb700	new buf size: 0
+06:44:12:270	94bef700	got 299 bytes
+06:44:12:270	94bef700	buf: {"id":6,"jsonrpc":"2.0","params":["2","0x000000000000001ec379bfe8ae5a7934d6bbf6e4a348b61ad58341d0789b578e00000000000000007ca4dc5900000000e50df7fdde96f077977d7fe9f53ab9070fd4f36512e4dc407d49836c29e0f6f4","0x0000000007547ff5d321871ff4fb4f118b8d13a30a1ff7b317f3c5b20629578a"],"method":"mining.notify"}
+
+06:44:12:270	94bef700	parse packet: 298
+06:44:12:270	94bef700	sc: job changed(2)
+06:44:12:270	94bef700	new buf size: 0
+06:44:12:270	94bef700	 SC: 10/10/17-06:44:12 - New job from sia-us-east1.nanopool.org:7777
+06:44:12:270	94bef700	target: 0x0000000007547ff5 (diff: 150GH)
+06:44:12:472	95ffb700	parse packet: 236
+06:44:12:472	95ffb700	ETH: job is the same
+06:44:12:472	95ffb700	new buf size: 0
+06:44:12:715	95ffb700	parse packet: 236
+06:44:12:715	95ffb700	ETH: job is the same
+06:44:12:715	95ffb700	new buf size: 0
+06:44:12:960	95ffb700	parse packet: 236
+06:44:12:961	95ffb700	ETH: job is the same
+06:44:12:961	95ffb700	new buf size: 0
+06:44:13:203	95ffb700	parse packet: 236
+06:44:13:203	95ffb700	ETH: job is the same
+06:44:13:203	95ffb700	new buf size: 0
+06:44:13:446	95ffb700	parse packet: 236
+06:44:13:447	95ffb700	ETH: job is the same
+06:44:13:447	95ffb700	new buf size: 0
+06:44:13:692	95ffb700	parse packet: 236
+06:44:13:692	95ffb700	ETH: job is the same
+06:44:13:692	95ffb700	new buf size: 0
+06:44:13:936	95ffb700	parse packet: 236
+06:44:13:937	95ffb700	ETH: job is the same
+06:44:13:937	95ffb700	new buf size: 0
+06:44:14:180	95ffb700	parse packet: 236
+06:44:14:180	95ffb700	ETH: job is the same
+06:44:14:180	95ffb700	new buf size: 0
+06:44:14:425	95ffb700	parse packet: 236
+06:44:14:425	95ffb700	ETH: job is the same
+06:44:14:425	95ffb700	new buf size: 0
+06:44:14:669	95ffb700	parse packet: 236
+06:44:14:669	95ffb700	ETH: job is the same
+06:44:14:669	95ffb700	new buf size: 0
+06:44:14:912	95ffb700	parse packet: 236
+06:44:14:912	95ffb700	ETH: job is the same
+06:44:14:913	95ffb700	new buf size: 0
+06:44:14:913	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x32a23b7", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:44:14:955	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:44:15:198	95ffb700	parse packet: 236
+06:44:15:198	95ffb700	ETH: job is the same
+06:44:15:198	95ffb700	new buf size: 0
+06:44:15:445	95ffb700	parse packet: 236
+06:44:15:445	95ffb700	ETH: job is the same
+06:44:15:445	95ffb700	new buf size: 0
+06:44:15:691	95ffb700	parse packet: 236
+06:44:15:691	95ffb700	ETH: job is the same
+06:44:15:691	95ffb700	new buf size: 0
+06:44:15:935	95ffb700	parse packet: 236
+06:44:15:935	95ffb700	ETH: job is the same
+06:44:15:935	95ffb700	new buf size: 0
+06:44:16:177	95ffb700	parse packet: 236
+06:44:16:177	95ffb700	ETH: job is the same
+06:44:16:177	95ffb700	new buf size: 0
+06:44:16:420	95ffb700	parse packet: 236
+06:44:16:421	95ffb700	ETH: job is the same
+06:44:16:421	95ffb700	new buf size: 0
+06:44:16:665	95ffb700	parse packet: 236
+06:44:16:665	95ffb700	ETH: job is the same
+06:44:16:665	95ffb700	new buf size: 0
+06:44:16:919	95ffb700	parse packet: 236
+06:44:16:919	95ffb700	ETH: job is the same
+06:44:16:919	95ffb700	new buf size: 0
+06:44:17:163	95ffb700	parse packet: 236
+06:44:17:163	95ffb700	ETH: job is the same
+06:44:17:163	95ffb700	new buf size: 0
+06:44:17:410	95ffb700	parse packet: 236
+06:44:17:410	95ffb700	ETH: job is the same
+06:44:17:410	95ffb700	new buf size: 0
+06:44:17:654	95ffb700	parse packet: 236
+06:44:17:655	95ffb700	ETH: job is the same
+06:44:17:655	95ffb700	new buf size: 0
+06:44:17:909	95ffb700	parse packet: 236
+06:44:17:909	95ffb700	ETH: job is the same
+06:44:17:909	95ffb700	new buf size: 0
+06:44:18:159	95ffb700	parse packet: 236
+06:44:18:159	95ffb700	ETH: job is the same
+06:44:18:159	95ffb700	new buf size: 0
+06:44:18:402	95ffb700	parse packet: 236
+06:44:18:402	95ffb700	ETH: job is the same
+06:44:18:402	95ffb700	new buf size: 0
+06:44:18:659	95ffb700	parse packet: 236
+06:44:18:660	95ffb700	ETH: job is the same
+06:44:18:660	95ffb700	new buf size: 0
+06:44:18:904	95ffb700	parse packet: 236
+06:44:18:904	95ffb700	ETH: job is the same
+06:44:18:904	95ffb700	new buf size: 0
+06:44:19:145	95ffb700	parse packet: 236
+06:44:19:145	95ffb700	ETH: job is the same
+06:44:19:145	95ffb700	new buf size: 0
+06:44:19:390	95ffb700	parse packet: 236
+06:44:19:390	95ffb700	ETH: job is the same
+06:44:19:390	95ffb700	new buf size: 0
+06:44:19:634	95ffb700	parse packet: 236
+06:44:19:635	95ffb700	ETH: job is the same
+06:44:19:635	95ffb700	new buf size: 0
+06:44:19:878	95ffb700	parse packet: 236
+06:44:19:879	95ffb700	ETH: job is the same
+06:44:19:879	95ffb700	new buf size: 0
+06:44:20:123	95ffb700	parse packet: 236
+06:44:20:123	95ffb700	ETH: job is the same
+06:44:20:123	95ffb700	new buf size: 0
+06:44:20:123	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x32a65c0", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:44:20:164	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:44:20:419	95ffb700	parse packet: 236
+06:44:20:419	95ffb700	ETH: job is the same
+06:44:20:419	95ffb700	new buf size: 0
+06:44:20:664	95ffb700	parse packet: 236
+06:44:20:664	95ffb700	ETH: job is the same
+06:44:20:664	95ffb700	new buf size: 0
+06:44:20:909	95ffb700	parse packet: 236
+06:44:20:909	95ffb700	ETH: job is the same
+06:44:20:909	95ffb700	new buf size: 0
+06:44:21:152	95ffb700	parse packet: 236
+06:44:21:152	95ffb700	ETH: job is the same
+06:44:21:153	95ffb700	new buf size: 0
+06:44:21:397	95ffb700	parse packet: 236
+06:44:21:397	95ffb700	ETH: job is the same
+06:44:21:397	95ffb700	new buf size: 0
+06:44:21:639	95ffb700	parse packet: 236
+06:44:21:639	95ffb700	ETH: job is the same
+06:44:21:639	95ffb700	new buf size: 0
+06:44:21:884	95ffb700	parse packet: 236
+06:44:21:884	95ffb700	ETH: job is the same
+06:44:21:884	95ffb700	new buf size: 0
+06:44:22:128	95ffb700	parse packet: 236
+06:44:22:128	95ffb700	ETH: job is the same
+06:44:22:128	95ffb700	new buf size: 0
+06:44:22:372	95ffb700	parse packet: 236
+06:44:22:372	95ffb700	ETH: job is the same
+06:44:22:373	95ffb700	new buf size: 0
+06:44:22:626	95ffb700	parse packet: 236
+06:44:22:626	95ffb700	ETH: job is the same
+06:44:22:626	95ffb700	new buf size: 0
+06:44:22:870	95ffb700	parse packet: 236
+06:44:22:871	95ffb700	ETH: job is the same
+06:44:22:871	95ffb700	new buf size: 0
+06:44:23:114	95ffb700	parse packet: 236
+06:44:23:115	95ffb700	ETH: job is the same
+06:44:23:115	95ffb700	new buf size: 0
+06:44:23:358	95ffb700	parse packet: 236
+06:44:23:358	95ffb700	ETH: job is the same
+06:44:23:358	95ffb700	new buf size: 0
+06:44:23:602	95ffb700	parse packet: 236
+06:44:23:602	95ffb700	ETH: job is the same
+06:44:23:602	95ffb700	new buf size: 0
+06:44:23:848	95ffb700	parse packet: 236
+06:44:23:848	95ffb700	ETH: job is the same
+06:44:23:848	95ffb700	new buf size: 0
+06:44:24:092	95ffb700	parse packet: 236
+06:44:24:092	95ffb700	ETH: job is the same
+06:44:24:093	95ffb700	new buf size: 0
+06:44:24:337	95ffb700	parse packet: 236
+06:44:24:337	95ffb700	ETH: job is the same
+06:44:24:337	95ffb700	new buf size: 0
+06:44:24:580	95ffb700	parse packet: 236
+06:44:24:581	95ffb700	ETH: job is the same
+06:44:24:581	95ffb700	new buf size: 0
+06:44:24:825	95ffb700	parse packet: 236
+06:44:24:825	95ffb700	ETH: job is the same
+06:44:24:825	95ffb700	new buf size: 0
+06:44:25:072	95ffb700	parse packet: 236
+06:44:25:073	95ffb700	ETH: job is the same
+06:44:25:073	95ffb700	new buf size: 0
+06:44:25:317	95ffb700	parse packet: 236
+06:44:25:317	95ffb700	ETH: job is the same
+06:44:25:317	95ffb700	new buf size: 0
+06:44:25:317	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x32a83b2", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:44:25:361	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:44:25:614	95ffb700	parse packet: 236
+06:44:25:614	95ffb700	ETH: job is the same
+06:44:25:614	95ffb700	new buf size: 0
+06:44:25:867	95ffb700	parse packet: 236
+06:44:25:867	95ffb700	ETH: job is the same
+06:44:25:867	95ffb700	new buf size: 0
+06:44:26:107	95ffb700	parse packet: 236
+06:44:26:107	95ffb700	ETH: job is the same
+06:44:26:107	95ffb700	new buf size: 0
+06:44:26:351	95ffb700	parse packet: 236
+06:44:26:351	95ffb700	ETH: job is the same
+06:44:26:351	95ffb700	new buf size: 0
+06:44:26:594	95ffb700	parse packet: 236
+06:44:26:594	95ffb700	ETH: job is the same
+06:44:26:594	95ffb700	new buf size: 0
+06:44:26:834	95ffb700	parse packet: 236
+06:44:26:835	95ffb700	ETH: job is the same
+06:44:26:835	95ffb700	new buf size: 0
+06:44:27:078	95ffb700	parse packet: 236
+06:44:27:079	95ffb700	ETH: job is the same
+06:44:27:079	95ffb700	new buf size: 0
+06:44:27:332	95ffb700	parse packet: 236
+06:44:27:332	95ffb700	ETH: job is the same
+06:44:27:332	95ffb700	new buf size: 0
+06:44:27:577	95ffb700	parse packet: 236
+06:44:27:577	95ffb700	ETH: job is the same
+06:44:27:577	95ffb700	new buf size: 0
+06:44:27:821	95ffb700	parse packet: 236
+06:44:27:821	95ffb700	ETH: job is the same
+06:44:27:821	95ffb700	new buf size: 0
+06:44:28:061	95ffb700	parse packet: 236
+06:44:28:061	95ffb700	ETH: job is the same
+06:44:28:061	95ffb700	new buf size: 0
+06:44:28:308	95ffb700	parse packet: 236
+06:44:28:308	95ffb700	ETH: job is the same
+06:44:28:308	95ffb700	new buf size: 0
+06:44:28:555	95ffb700	parse packet: 236
+06:44:28:555	95ffb700	ETH: job is the same
+06:44:28:555	95ffb700	new buf size: 0
+06:44:28:797	95ffb700	parse packet: 236
+06:44:28:797	95ffb700	ETH: job is the same
+06:44:28:797	95ffb700	new buf size: 0
+06:44:29:040	95ffb700	parse packet: 236
+06:44:29:041	95ffb700	ETH: job is the same
+06:44:29:041	95ffb700	new buf size: 0
+06:44:29:286	95ffb700	parse packet: 236
+06:44:29:286	95ffb700	ETH: job is the same
+06:44:29:286	95ffb700	new buf size: 0
+06:44:29:527	95ffb700	parse packet: 236
+06:44:29:527	95ffb700	ETH: job is the same
+06:44:29:527	95ffb700	new buf size: 0
+06:44:29:767	95ffb700	parse packet: 236
+06:44:29:767	95ffb700	ETH: job is the same
+06:44:29:767	95ffb700	new buf size: 0
+06:44:30:017	95ffb700	parse packet: 236
+06:44:30:017	95ffb700	ETH: job is the same
+06:44:30:017	95ffb700	new buf size: 0
+06:44:30:262	95ffb700	parse packet: 236
+06:44:30:262	95ffb700	ETH: job is the same
+06:44:30:262	95ffb700	new buf size: 0
+06:44:30:506	95ffb700	parse packet: 236
+06:44:30:507	95ffb700	ETH: job is the same
+06:44:30:507	95ffb700	new buf size: 0
+06:44:30:507	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x32a82b5", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:44:30:549	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:44:30:792	95ffb700	parse packet: 236
+06:44:30:793	95ffb700	ETH: job is the same
+06:44:30:793	95ffb700	new buf size: 0
+06:44:31:036	95ffb700	parse packet: 236
+06:44:31:037	95ffb700	ETH: job is the same
+06:44:31:037	95ffb700	new buf size: 0
+06:44:31:280	95ffb700	parse packet: 236
+06:44:31:280	95ffb700	ETH: job is the same
+06:44:31:281	95ffb700	new buf size: 0
+06:44:31:524	95ffb700	parse packet: 236
+06:44:31:525	95ffb700	ETH: job is the same
+06:44:31:525	95ffb700	new buf size: 0
+06:44:31:765	95ffb700	parse packet: 236
+06:44:31:765	95ffb700	ETH: job is the same
+06:44:31:765	95ffb700	new buf size: 0
+06:44:32:013	95ffb700	parse packet: 236
+06:44:32:014	95ffb700	ETH: job is the same
+06:44:32:014	95ffb700	new buf size: 0
+06:44:32:266	95ffb700	parse packet: 236
+06:44:32:266	95ffb700	ETH: job is the same
+06:44:32:266	95ffb700	new buf size: 0
+06:44:32:511	95ffb700	parse packet: 236
+06:44:32:511	95ffb700	ETH: job is the same
+06:44:32:511	95ffb700	new buf size: 0
+06:44:32:769	95ffb700	parse packet: 236
+06:44:32:769	95ffb700	ETH: job is the same
+06:44:32:769	95ffb700	new buf size: 0
+06:44:33:012	95ffb700	parse packet: 236
+06:44:33:013	95ffb700	ETH: job is the same
+06:44:33:013	95ffb700	new buf size: 0
+06:44:33:257	95ffb700	parse packet: 236
+06:44:33:257	95ffb700	ETH: job is the same
+06:44:33:257	95ffb700	new buf size: 0
+06:44:33:499	95ffb700	parse packet: 236
+06:44:33:500	95ffb700	ETH: job is the same
+06:44:33:500	95ffb700	new buf size: 0
+06:44:33:774	95ffb700	parse packet: 236
+06:44:33:775	95ffb700	ETH: job is the same
+06:44:33:775	95ffb700	new buf size: 0
+06:44:34:018	95ffb700	parse packet: 236
+06:44:34:019	95ffb700	ETH: job is the same
+06:44:34:019	95ffb700	new buf size: 0
+06:44:34:263	95ffb700	parse packet: 236
+06:44:34:263	95ffb700	ETH: job is the same
+06:44:34:263	95ffb700	new buf size: 0
+06:44:34:527	95ffb700	parse packet: 236
+06:44:34:528	95ffb700	ETH: job is the same
+06:44:34:528	95ffb700	new buf size: 0
+06:44:34:779	95ffb700	parse packet: 236
+06:44:34:779	95ffb700	ETH: job is the same
+06:44:34:779	95ffb700	new buf size: 0
+06:44:35:042	95ffb700	parse packet: 236
+06:44:35:042	95ffb700	ETH: job is the same
+06:44:35:042	95ffb700	new buf size: 0
+06:44:35:286	95ffb700	parse packet: 236
+06:44:35:287	95ffb700	ETH: job is the same
+06:44:35:287	95ffb700	new buf size: 0
+06:44:35:530	95ffb700	parse packet: 236
+06:44:35:531	95ffb700	ETH: job is the same
+06:44:35:531	95ffb700	new buf size: 0
+06:44:35:531	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x32a4658", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:44:35:580	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:44:35:829	95ffb700	parse packet: 236
+06:44:35:829	95ffb700	ETH: job is the same
+06:44:35:829	95ffb700	new buf size: 0
+06:44:36:074	95ffb700	parse packet: 236
+06:44:36:074	95ffb700	ETH: job is the same
+06:44:36:074	95ffb700	new buf size: 0
+06:44:36:315	95ffb700	parse packet: 236
+06:44:36:315	95ffb700	ETH: job is the same
+06:44:36:315	95ffb700	new buf size: 0
+06:44:36:558	95ffb700	parse packet: 236
+06:44:36:559	95ffb700	ETH: job is the same
+06:44:36:559	95ffb700	new buf size: 0
+06:44:36:808	95ffb700	parse packet: 236
+06:44:36:808	95ffb700	ETH: job is the same
+06:44:36:808	95ffb700	new buf size: 0
+06:44:37:073	95ffb700	parse packet: 236
+06:44:37:073	95ffb700	ETH: job is the same
+06:44:37:074	95ffb700	new buf size: 0
+06:44:37:318	95ffb700	parse packet: 236
+06:44:37:319	95ffb700	ETH: job is the same
+06:44:37:319	95ffb700	new buf size: 0
+06:44:37:559	95ffb700	parse packet: 236
+06:44:37:559	95ffb700	ETH: job is the same
+06:44:37:559	95ffb700	new buf size: 0
+06:44:37:803	95ffb700	parse packet: 236
+06:44:37:803	95ffb700	ETH: job is the same
+06:44:37:803	95ffb700	new buf size: 0
+06:44:38:047	95ffb700	parse packet: 236
+06:44:38:047	95ffb700	ETH: job is the same
+06:44:38:047	95ffb700	new buf size: 0
+06:44:38:290	95ffb700	parse packet: 236
+06:44:38:290	95ffb700	ETH: job is the same
+06:44:38:291	95ffb700	new buf size: 0
+06:44:38:531	95ffb700	parse packet: 236
+06:44:38:531	95ffb700	ETH: job is the same
+06:44:38:531	95ffb700	new buf size: 0
+06:44:38:786	95ffb700	parse packet: 236
+06:44:38:786	95ffb700	ETH: job is the same
+06:44:38:786	95ffb700	new buf size: 0
+06:44:39:037	95ffb700	parse packet: 236
+06:44:39:037	95ffb700	ETH: job is the same
+06:44:39:038	95ffb700	new buf size: 0
+06:44:39:273	b505c700	GPU0 t=47C fan=80%, GPU1 t=48C fan=80%
+06:44:39:273	b505c700	em hbt: 234, dm hbt: 0, fm hbt: 23, 
+06:44:39:273	b505c700	watchdog - thread 0 (gpu0), hb time 172
+06:44:39:273	b505c700	watchdog - thread 1 (gpu0), hb time 61
+06:44:39:273	b505c700	watchdog - thread 2 (gpu1), hb time 62
+06:44:39:273	b505c700	watchdog - thread 3 (gpu1), hb time 173
+06:44:39:279	95ffb700	parse packet: 236
+06:44:39:279	95ffb700	ETH: job is the same
+06:44:39:279	95ffb700	new buf size: 0
+06:44:39:523	95ffb700	parse packet: 236
+06:44:39:523	95ffb700	ETH: job is the same
+06:44:39:523	95ffb700	new buf size: 0
+06:44:39:773	95ffb700	parse packet: 236
+06:44:39:773	95ffb700	ETH: job is the same
+06:44:39:773	95ffb700	new buf size: 0
+06:44:40:016	95ffb700	parse packet: 236
+06:44:40:017	95ffb700	ETH: job is the same
+06:44:40:017	95ffb700	new buf size: 0
+06:44:40:261	95ffb700	parse packet: 236
+06:44:40:261	95ffb700	ETH: job is the same
+06:44:40:261	95ffb700	new buf size: 0
+06:44:40:501	95ffb700	parse packet: 236
+06:44:40:501	95ffb700	ETH: job is the same
+06:44:40:501	95ffb700	new buf size: 0
+06:44:40:745	95ffb700	parse packet: 236
+06:44:40:745	95ffb700	ETH: job is the same
+06:44:40:745	95ffb700	new buf size: 0
+06:44:40:745	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x32a1eae", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:44:40:783	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:44:41:028	95ffb700	parse packet: 236
+06:44:41:028	95ffb700	ETH: job is the same
+06:44:41:028	95ffb700	new buf size: 0
+06:44:41:273	95ffb700	parse packet: 236
+06:44:41:273	95ffb700	ETH: job is the same
+06:44:41:273	95ffb700	new buf size: 0
+06:44:41:517	95ffb700	parse packet: 236
+06:44:41:517	95ffb700	ETH: job is the same
+06:44:41:517	95ffb700	new buf size: 0
+06:44:41:761	95ffb700	parse packet: 236
+06:44:41:761	95ffb700	ETH: job is the same
+06:44:41:761	95ffb700	new buf size: 0
+06:44:42:001	95ffb700	parse packet: 236
+06:44:42:001	95ffb700	ETH: job is the same
+06:44:42:001	95ffb700	new buf size: 0
+06:44:42:241	95ffb700	parse packet: 236
+06:44:42:241	95ffb700	ETH: job is the same
+06:44:42:241	95ffb700	new buf size: 0
+06:44:42:487	95ffb700	parse packet: 236
+06:44:42:487	95ffb700	ETH: job is the same
+06:44:42:487	95ffb700	new buf size: 0
+06:44:42:731	95ffb700	parse packet: 236
+06:44:42:731	95ffb700	ETH: job is the same
+06:44:42:731	95ffb700	new buf size: 0
+06:44:42:984	95ffb700	parse packet: 236
+06:44:42:984	95ffb700	ETH: job is the same
+06:44:42:984	95ffb700	new buf size: 0
+06:44:43:246	95ffb700	parse packet: 236
+06:44:43:246	95ffb700	ETH: job is the same
+06:44:43:246	95ffb700	new buf size: 0
+06:44:43:493	95ffb700	parse packet: 236
+06:44:43:493	95ffb700	ETH: job is the same
+06:44:43:493	95ffb700	new buf size: 0
+06:44:43:737	95ffb700	parse packet: 236
+06:44:43:737	95ffb700	ETH: job is the same
+06:44:43:737	95ffb700	new buf size: 0
+06:44:43:981	95ffb700	parse packet: 236
+06:44:43:981	95ffb700	ETH: job is the same
+06:44:43:981	95ffb700	new buf size: 0
+06:44:44:227	95ffb700	parse packet: 236
+06:44:44:227	95ffb700	ETH: job is the same
+06:44:44:227	95ffb700	new buf size: 0
+06:44:44:471	95ffb700	parse packet: 236
+06:44:44:471	95ffb700	ETH: job is the same
+06:44:44:471	95ffb700	new buf size: 0
+06:44:44:715	95ffb700	parse packet: 236
+06:44:44:715	95ffb700	ETH: job is the same
+06:44:44:715	95ffb700	new buf size: 0
+06:44:44:959	95ffb700	parse packet: 236
+06:44:44:959	95ffb700	ETH: job is the same
+06:44:44:959	95ffb700	new buf size: 0
+06:44:45:199	95ffb700	parse packet: 236
+06:44:45:199	95ffb700	ETH: job is the same
+06:44:45:199	95ffb700	new buf size: 0
+06:44:45:444	95ffb700	parse packet: 236
+06:44:45:444	95ffb700	ETH: job is the same
+06:44:45:444	95ffb700	new buf size: 0
+06:44:45:689	95ffb700	parse packet: 236
+06:44:45:689	95ffb700	ETH: job is the same
+06:44:45:689	95ffb700	new buf size: 0
+06:44:45:929	95ffb700	parse packet: 236
+06:44:45:929	95ffb700	ETH: job is the same
+06:44:45:929	95ffb700	new buf size: 0
+06:44:45:929	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x32a640b", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:44:45:973	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:44:46:213	95ffb700	parse packet: 236
+06:44:46:213	95ffb700	ETH: job is the same
+06:44:46:213	95ffb700	new buf size: 0
+06:44:46:457	95ffb700	parse packet: 236
+06:44:46:457	95ffb700	ETH: job is the same
+06:44:46:457	95ffb700	new buf size: 0
+06:44:46:703	95ffb700	parse packet: 236
+06:44:46:703	95ffb700	ETH: job is the same
+06:44:46:703	95ffb700	new buf size: 0
+06:44:46:947	95ffb700	parse packet: 236
+06:44:46:947	95ffb700	ETH: job is the same
+06:44:46:947	95ffb700	new buf size: 0
+06:44:47:191	95ffb700	parse packet: 236
+06:44:47:191	95ffb700	ETH: job is the same
+06:44:47:191	95ffb700	new buf size: 0
+06:44:47:435	95ffb700	parse packet: 236
+06:44:47:435	95ffb700	ETH: job is the same
+06:44:47:435	95ffb700	new buf size: 0
+06:44:47:688	95ffb700	parse packet: 236
+06:44:47:689	95ffb700	ETH: job is the same
+06:44:47:689	95ffb700	new buf size: 0
+06:44:47:933	95ffb700	parse packet: 236
+06:44:47:933	95ffb700	ETH: job is the same
+06:44:47:933	95ffb700	new buf size: 0
+06:44:48:180	95ffb700	parse packet: 236
+06:44:48:180	95ffb700	ETH: job is the same
+06:44:48:180	95ffb700	new buf size: 0
+06:44:48:421	95ffb700	parse packet: 236
+06:44:48:421	95ffb700	ETH: job is the same
+06:44:48:421	95ffb700	new buf size: 0
+06:44:48:665	95ffb700	parse packet: 236
+06:44:48:665	95ffb700	ETH: job is the same
+06:44:48:665	95ffb700	new buf size: 0
+06:44:48:909	95ffb700	parse packet: 236
+06:44:48:909	95ffb700	ETH: job is the same
+06:44:48:909	95ffb700	new buf size: 0
+06:44:49:153	95ffb700	parse packet: 236
+06:44:49:153	95ffb700	ETH: job is the same
+06:44:49:153	95ffb700	new buf size: 0
+06:44:49:398	95ffb700	parse packet: 236
+06:44:49:398	95ffb700	ETH: job is the same
+06:44:49:398	95ffb700	new buf size: 0
+06:44:49:643	95ffb700	parse packet: 236
+06:44:49:643	95ffb700	ETH: job is the same
+06:44:49:643	95ffb700	new buf size: 0
+06:44:49:890	95ffb700	parse packet: 236
+06:44:49:890	95ffb700	ETH: job is the same
+06:44:49:890	95ffb700	new buf size: 0
+06:44:50:136	95ffb700	parse packet: 236
+06:44:50:136	95ffb700	ETH: job is the same
+06:44:50:136	95ffb700	new buf size: 0
+06:44:50:381	95ffb700	parse packet: 236
+06:44:50:381	95ffb700	ETH: job is the same
+06:44:50:381	95ffb700	new buf size: 0
+06:44:50:628	95ffb700	parse packet: 236
+06:44:50:628	95ffb700	ETH: job is the same
+06:44:50:628	95ffb700	new buf size: 0
+06:44:50:873	95ffb700	parse packet: 236
+06:44:50:873	95ffb700	ETH: job is the same
+06:44:50:873	95ffb700	new buf size: 0
+06:44:51:120	95ffb700	parse packet: 236
+06:44:51:121	95ffb700	ETH: job is the same
+06:44:51:121	95ffb700	new buf size: 0
+06:44:51:121	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x32a5151", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:44:51:159	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:44:51:403	95ffb700	parse packet: 236
+06:44:51:403	95ffb700	ETH: job is the same
+06:44:51:403	95ffb700	new buf size: 0
+06:44:51:647	95ffb700	parse packet: 236
+06:44:51:647	95ffb700	ETH: job is the same
+06:44:51:647	95ffb700	new buf size: 0
+06:44:51:891	95ffb700	parse packet: 236
+06:44:51:891	95ffb700	ETH: job is the same
+06:44:51:891	95ffb700	new buf size: 0
+06:44:52:138	95ffb700	parse packet: 236
+06:44:52:139	95ffb700	ETH: job is the same
+06:44:52:139	95ffb700	new buf size: 0
+06:44:52:383	95ffb700	parse packet: 236
+06:44:52:383	95ffb700	ETH: job is the same
+06:44:52:383	95ffb700	new buf size: 0
+06:44:52:627	95ffb700	parse packet: 236
+06:44:52:627	95ffb700	ETH: job is the same
+06:44:52:627	95ffb700	new buf size: 0
+06:44:52:871	95ffb700	parse packet: 236
+06:44:52:871	95ffb700	ETH: job is the same
+06:44:52:871	95ffb700	new buf size: 0
+06:44:53:115	95ffb700	parse packet: 236
+06:44:53:115	95ffb700	ETH: job is the same
+06:44:53:115	95ffb700	new buf size: 0
+06:44:53:355	95ffb700	parse packet: 236
+06:44:53:355	95ffb700	ETH: job is the same
+06:44:53:355	95ffb700	new buf size: 0
+06:44:53:599	95ffb700	parse packet: 236
+06:44:53:599	95ffb700	ETH: job is the same
+06:44:53:599	95ffb700	new buf size: 0
+06:44:53:843	95ffb700	parse packet: 236
+06:44:53:843	95ffb700	ETH: job is the same
+06:44:53:843	95ffb700	new buf size: 0
+06:44:54:090	95ffb700	parse packet: 236
+06:44:54:090	95ffb700	ETH: job is the same
+06:44:54:090	95ffb700	new buf size: 0
+06:44:54:334	95ffb700	parse packet: 236
+06:44:54:335	95ffb700	ETH: job is the same
+06:44:54:335	95ffb700	new buf size: 0
+06:44:54:579	95ffb700	parse packet: 236
+06:44:54:579	95ffb700	ETH: job is the same
+06:44:54:579	95ffb700	new buf size: 0
+06:44:54:823	95ffb700	parse packet: 236
+06:44:54:823	95ffb700	ETH: job is the same
+06:44:54:823	95ffb700	new buf size: 0
+06:44:55:068	95ffb700	parse packet: 236
+06:44:55:068	95ffb700	ETH: job is the same
+06:44:55:068	95ffb700	new buf size: 0
+06:44:55:313	95ffb700	parse packet: 236
+06:44:55:313	95ffb700	ETH: job is the same
+06:44:55:313	95ffb700	new buf size: 0
+06:44:55:557	95ffb700	parse packet: 236
+06:44:55:557	95ffb700	ETH: job is the same
+06:44:55:557	95ffb700	new buf size: 0
+06:44:55:801	95ffb700	parse packet: 236
+06:44:55:801	95ffb700	ETH: job is the same
+06:44:55:801	95ffb700	new buf size: 0
+06:44:56:047	95ffb700	parse packet: 236
+06:44:56:047	95ffb700	ETH: job is the same
+06:44:56:047	95ffb700	new buf size: 0
+06:44:56:291	95ffb700	parse packet: 236
+06:44:56:291	95ffb700	ETH: job is the same
+06:44:56:291	95ffb700	new buf size: 0
+06:44:56:291	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x32a9ed9", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:44:56:329	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:44:56:573	95ffb700	parse packet: 236
+06:44:56:573	95ffb700	ETH: job is the same
+06:44:56:573	95ffb700	new buf size: 0
+06:44:56:817	95ffb700	parse packet: 236
+06:44:56:817	95ffb700	ETH: job is the same
+06:44:56:817	95ffb700	new buf size: 0
+06:44:57:061	95ffb700	parse packet: 236
+06:44:57:061	95ffb700	ETH: job is the same
+06:44:57:061	95ffb700	new buf size: 0
+06:44:57:305	95ffb700	parse packet: 236
+06:44:57:305	95ffb700	ETH: job is the same
+06:44:57:305	95ffb700	new buf size: 0
+06:44:57:549	95ffb700	parse packet: 236
+06:44:57:549	95ffb700	ETH: job is the same
+06:44:57:549	95ffb700	new buf size: 0
+06:44:57:793	95ffb700	parse packet: 236
+06:44:57:793	95ffb700	ETH: job is the same
+06:44:57:793	95ffb700	new buf size: 0
+06:44:58:037	95ffb700	parse packet: 236
+06:44:58:037	95ffb700	ETH: job is the same
+06:44:58:037	95ffb700	new buf size: 0
+06:44:58:279	95ffb700	parse packet: 236
+06:44:58:279	95ffb700	ETH: job is the same
+06:44:58:279	95ffb700	new buf size: 0
+06:44:58:525	95ffb700	parse packet: 236
+06:44:58:525	95ffb700	ETH: job is the same
+06:44:58:525	95ffb700	new buf size: 0
+06:44:58:769	95ffb700	parse packet: 236
+06:44:58:769	95ffb700	ETH: job is the same
+06:44:58:769	95ffb700	new buf size: 0
+06:44:59:017	95ffb700	parse packet: 236
+06:44:59:017	95ffb700	ETH: job is the same
+06:44:59:017	95ffb700	new buf size: 0
+06:44:59:261	95ffb700	parse packet: 236
+06:44:59:261	95ffb700	ETH: job is the same
+06:44:59:261	95ffb700	new buf size: 0
+06:44:59:501	95ffb700	parse packet: 236
+06:44:59:501	95ffb700	ETH: job is the same
+06:44:59:501	95ffb700	new buf size: 0
+06:44:59:748	95ffb700	parse packet: 236
+06:44:59:748	95ffb700	ETH: job is the same
+06:44:59:748	95ffb700	new buf size: 0
+06:44:59:993	95ffb700	parse packet: 236
+06:44:59:993	95ffb700	ETH: job is the same
+06:44:59:993	95ffb700	new buf size: 0
+06:45:00:245	95ffb700	parse packet: 236
+06:45:00:245	95ffb700	ETH: job is the same
+06:45:00:245	95ffb700	new buf size: 0
+06:45:00:498	95ffb700	parse packet: 236
+06:45:00:499	95ffb700	ETH: job is the same
+06:45:00:499	95ffb700	new buf size: 0
+06:45:00:743	95ffb700	parse packet: 236
+06:45:00:743	95ffb700	ETH: job is the same
+06:45:00:743	95ffb700	new buf size: 0
+06:45:00:987	95ffb700	parse packet: 236
+06:45:00:987	95ffb700	ETH: job is the same
+06:45:00:987	95ffb700	new buf size: 0
+06:45:01:231	95ffb700	parse packet: 236
+06:45:01:231	95ffb700	ETH: job is the same
+06:45:01:231	95ffb700	new buf size: 0
+06:45:01:475	95ffb700	parse packet: 236
+06:45:01:475	95ffb700	ETH: job is the same
+06:45:01:475	95ffb700	new buf size: 0
+06:45:01:475	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x31abecf", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:45:01:517	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:45:01:774	95ffb700	parse packet: 236
+06:45:01:774	95ffb700	ETH: job is the same
+06:45:01:774	95ffb700	new buf size: 0
+06:45:02:019	95ffb700	parse packet: 236
+06:45:02:019	95ffb700	ETH: job is the same
+06:45:02:019	95ffb700	new buf size: 0
+06:45:02:274	95ffb700	parse packet: 236
+06:45:02:274	95ffb700	ETH: job is the same
+06:45:02:274	95ffb700	new buf size: 0
+06:45:02:521	95ffb700	parse packet: 236
+06:45:02:521	95ffb700	ETH: job is the same
+06:45:02:521	95ffb700	new buf size: 0
+06:45:02:769	95ffb700	parse packet: 236
+06:45:02:769	95ffb700	ETH: job is the same
+06:45:02:769	95ffb700	new buf size: 0
+06:45:03:014	95ffb700	parse packet: 236
+06:45:03:015	95ffb700	ETH: job is the same
+06:45:03:015	95ffb700	new buf size: 0
+06:45:03:265	95ffb700	parse packet: 236
+06:45:03:265	95ffb700	ETH: job is the same
+06:45:03:265	95ffb700	new buf size: 0
+06:45:03:509	95ffb700	parse packet: 236
+06:45:03:509	95ffb700	ETH: job is the same
+06:45:03:509	95ffb700	new buf size: 0
+06:45:03:753	95ffb700	parse packet: 236
+06:45:03:753	95ffb700	ETH: job is the same
+06:45:03:753	95ffb700	new buf size: 0
+06:45:04:035	95ffb700	parse packet: 236
+06:45:04:035	95ffb700	ETH: job is the same
+06:45:04:035	95ffb700	new buf size: 0
+06:45:04:283	95ffb700	parse packet: 236
+06:45:04:283	95ffb700	ETH: job is the same
+06:45:04:283	95ffb700	new buf size: 0
+06:45:04:527	95ffb700	parse packet: 236
+06:45:04:527	95ffb700	ETH: job is the same
+06:45:04:527	95ffb700	new buf size: 0
+06:45:04:771	95ffb700	parse packet: 236
+06:45:04:771	95ffb700	ETH: job is the same
+06:45:04:771	95ffb700	new buf size: 0
+06:45:05:015	95ffb700	parse packet: 236
+06:45:05:015	95ffb700	ETH: job is the same
+06:45:05:015	95ffb700	new buf size: 0
+06:45:05:259	95ffb700	parse packet: 236
+06:45:05:260	95ffb700	ETH: job is the same
+06:45:05:260	95ffb700	new buf size: 0
+06:45:05:503	95ffb700	parse packet: 236
+06:45:05:503	95ffb700	ETH: job is the same
+06:45:05:503	95ffb700	new buf size: 0
+06:45:05:743	95ffb700	parse packet: 236
+06:45:05:743	95ffb700	ETH: job is the same
+06:45:05:743	95ffb700	new buf size: 0
+06:45:05:997	95ffb700	parse packet: 236
+06:45:05:997	95ffb700	ETH: job is the same
+06:45:05:997	95ffb700	new buf size: 0
+06:45:06:241	95ffb700	parse packet: 236
+06:45:06:241	95ffb700	ETH: job is the same
+06:45:06:241	95ffb700	new buf size: 0
+06:45:06:481	95ffb700	parse packet: 236
+06:45:06:481	95ffb700	ETH: job is the same
+06:45:06:481	95ffb700	new buf size: 0
+06:45:06:481	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x32a3bda", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:45:06:531	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:45:06:773	95ffb700	parse packet: 236
+06:45:06:773	95ffb700	ETH: job is the same
+06:45:06:773	95ffb700	new buf size: 0
+06:45:07:017	95ffb700	parse packet: 236
+06:45:07:017	95ffb700	ETH: job is the same
+06:45:07:017	95ffb700	new buf size: 0
+06:45:07:261	95ffb700	parse packet: 236
+06:45:07:261	95ffb700	ETH: job is the same
+06:45:07:261	95ffb700	new buf size: 0
+06:45:07:505	95ffb700	parse packet: 236
+06:45:07:505	95ffb700	ETH: job is the same
+06:45:07:505	95ffb700	new buf size: 0
+06:45:07:749	95ffb700	parse packet: 236
+06:45:07:749	95ffb700	ETH: job is the same
+06:45:07:749	95ffb700	new buf size: 0
+06:45:07:997	95ffb700	parse packet: 236
+06:45:07:997	95ffb700	ETH: job is the same
+06:45:07:997	95ffb700	new buf size: 0
+06:45:08:241	95ffb700	parse packet: 236
+06:45:08:241	95ffb700	ETH: job is the same
+06:45:08:241	95ffb700	new buf size: 0
+06:45:08:481	95ffb700	parse packet: 236
+06:45:08:481	95ffb700	ETH: job is the same
+06:45:08:481	95ffb700	new buf size: 0
+06:45:08:725	95ffb700	parse packet: 236
+06:45:08:725	95ffb700	ETH: job is the same
+06:45:08:725	95ffb700	new buf size: 0
+06:45:08:970	95ffb700	parse packet: 236
+06:45:08:971	95ffb700	ETH: job is the same
+06:45:08:971	95ffb700	new buf size: 0
+06:45:09:215	95ffb700	parse packet: 236
+06:45:09:215	95ffb700	ETH: job is the same
+06:45:09:215	95ffb700	new buf size: 0
+06:45:09:304	b505c700	GPU0 t=48C fan=80%, GPU1 t=48C fan=80%
+06:45:09:304	b505c700	em hbt: 88, dm hbt: 0, fm hbt: 18, 
+06:45:09:304	b505c700	watchdog - thread 0 (gpu0), hb time 42
+06:45:09:304	b505c700	watchdog - thread 1 (gpu0), hb time 157
+06:45:09:304	b505c700	watchdog - thread 2 (gpu1), hb time 141
+06:45:09:304	b505c700	watchdog - thread 3 (gpu1), hb time 30
+06:45:09:477	95ffb700	parse packet: 236
+06:45:09:477	95ffb700	ETH: job is the same
+06:45:09:477	95ffb700	new buf size: 0
+06:45:09:723	95ffb700	parse packet: 236
+06:45:09:723	95ffb700	ETH: job is the same
+06:45:09:723	95ffb700	new buf size: 0
+06:45:09:969	95ffb700	parse packet: 236
+06:45:09:969	95ffb700	ETH: job is the same
+06:45:09:969	95ffb700	new buf size: 0
+06:45:10:219	95ffb700	parse packet: 236
+06:45:10:219	95ffb700	ETH: job is the same
+06:45:10:219	95ffb700	new buf size: 0
+06:45:10:465	95ffb700	parse packet: 236
+06:45:10:465	95ffb700	ETH: job is the same
+06:45:10:465	95ffb700	new buf size: 0
+06:45:10:715	95ffb700	parse packet: 236
+06:45:10:715	95ffb700	ETH: job is the same
+06:45:10:715	95ffb700	new buf size: 0
+06:45:10:959	95ffb700	parse packet: 236
+06:45:10:959	95ffb700	ETH: job is the same
+06:45:10:959	95ffb700	new buf size: 0
+06:45:11:203	95ffb700	parse packet: 236
+06:45:11:203	95ffb700	ETH: job is the same
+06:45:11:203	95ffb700	new buf size: 0
+06:45:11:259	94bef700	got 299 bytes
+06:45:11:259	94bef700	buf: {"id":6,"jsonrpc":"2.0","params":["3","0x000000000000001ec379bfe8ae5a7934d6bbf6e4a348b61ad58341d0789b578e0000000000000000b5a4dc590000000063cf721d724cb3bf24215802ace3e3d78a506abd129e2d2380e903f2b2346693","0x0000000007547ff5d321871ff4fb4f118b8d13a30a1ff7b317f3c5b20629578a"],"method":"mining.notify"}
+
+06:45:11:259	94bef700	parse packet: 298
+06:45:11:259	94bef700	sc: job changed(2)
+06:45:11:259	94bef700	new buf size: 0
+06:45:11:259	94bef700	 SC: 10/10/17-06:45:11 - New job from sia-us-east1.nanopool.org:7777
+06:45:11:259	94bef700	target: 0x0000000007547ff5 (diff: 150GH)
+06:45:11:448	95ffb700	parse packet: 236
+06:45:11:448	95ffb700	ETH: job is the same
+06:45:11:448	95ffb700	new buf size: 0
+06:45:11:698	95ffb700	parse packet: 236
+06:45:11:698	95ffb700	ETH: job is the same
+06:45:11:698	95ffb700	new buf size: 0
+06:45:11:698	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x319d85f", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:45:11:739	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:45:11:981	95ffb700	parse packet: 236
+06:45:11:981	95ffb700	ETH: job is the same
+06:45:11:981	95ffb700	new buf size: 0
+06:45:12:221	95ffb700	parse packet: 236
+06:45:12:221	95ffb700	ETH: job is the same
+06:45:12:222	95ffb700	new buf size: 0
+06:45:12:468	95ffb700	parse packet: 236
+06:45:12:468	95ffb700	ETH: job is the same
+06:45:12:468	95ffb700	new buf size: 0
+06:45:12:709	95ffb700	parse packet: 236
+06:45:12:709	95ffb700	ETH: job is the same
+06:45:12:709	95ffb700	new buf size: 0
+06:45:12:953	95ffb700	parse packet: 236
+06:45:12:953	95ffb700	ETH: job is the same
+06:45:12:953	95ffb700	new buf size: 0
+06:45:13:197	95ffb700	parse packet: 236
+06:45:13:197	95ffb700	ETH: job is the same
+06:45:13:197	95ffb700	new buf size: 0
+06:45:13:441	95ffb700	parse packet: 236
+06:45:13:441	95ffb700	ETH: job is the same
+06:45:13:441	95ffb700	new buf size: 0
+06:45:13:685	95ffb700	parse packet: 236
+06:45:13:685	95ffb700	ETH: job is the same
+06:45:13:685	95ffb700	new buf size: 0
+06:45:13:932	95ffb700	parse packet: 236
+06:45:13:933	95ffb700	ETH: job is the same
+06:45:13:933	95ffb700	new buf size: 0
+06:45:14:181	95ffb700	parse packet: 236
+06:45:14:181	95ffb700	ETH: job is the same
+06:45:14:181	95ffb700	new buf size: 0
+06:45:14:425	95ffb700	parse packet: 236
+06:45:14:425	95ffb700	ETH: job is the same
+06:45:14:425	95ffb700	new buf size: 0
+06:45:14:669	95ffb700	parse packet: 236
+06:45:14:669	95ffb700	ETH: job is the same
+06:45:14:669	95ffb700	new buf size: 0
+06:45:14:923	95ffb700	parse packet: 236
+06:45:14:923	95ffb700	ETH: job is the same
+06:45:14:923	95ffb700	new buf size: 0
+06:45:15:168	95ffb700	parse packet: 236
+06:45:15:169	95ffb700	ETH: job is the same
+06:45:15:169	95ffb700	new buf size: 0
+06:45:15:421	95ffb700	parse packet: 236
+06:45:15:421	95ffb700	ETH: job is the same
+06:45:15:421	95ffb700	new buf size: 0
+06:45:15:665	95ffb700	parse packet: 236
+06:45:15:665	95ffb700	ETH: job is the same
+06:45:15:665	95ffb700	new buf size: 0
+06:45:15:912	95ffb700	parse packet: 236
+06:45:15:912	95ffb700	ETH: job is the same
+06:45:15:912	95ffb700	new buf size: 0
+06:45:16:157	95ffb700	parse packet: 236
+06:45:16:157	95ffb700	ETH: job is the same
+06:45:16:157	95ffb700	new buf size: 0
+06:45:16:410	95ffb700	parse packet: 236
+06:45:16:410	95ffb700	ETH: job is the same
+06:45:16:410	95ffb700	new buf size: 0
+06:45:16:655	95ffb700	parse packet: 236
+06:45:16:655	95ffb700	ETH: job is the same
+06:45:16:655	95ffb700	new buf size: 0
+06:45:16:906	95ffb700	parse packet: 236
+06:45:16:906	95ffb700	ETH: job is the same
+06:45:16:906	95ffb700	new buf size: 0
+06:45:16:906	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x32a3394", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:45:16:948	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:45:17:193	95ffb700	parse packet: 236
+06:45:17:193	95ffb700	ETH: job is the same
+06:45:17:193	95ffb700	new buf size: 0
+06:45:17:441	95ffb700	parse packet: 236
+06:45:17:441	95ffb700	ETH: job is the same
+06:45:17:441	95ffb700	new buf size: 0
+06:45:17:689	95ffb700	parse packet: 236
+06:45:17:689	95ffb700	ETH: job is the same
+06:45:17:689	95ffb700	new buf size: 0
+06:45:17:939	95ffb700	parse packet: 236
+06:45:17:939	95ffb700	ETH: job is the same
+06:45:17:939	95ffb700	new buf size: 0
+06:45:18:183	95ffb700	parse packet: 236
+06:45:18:183	95ffb700	ETH: job is the same
+06:45:18:183	95ffb700	new buf size: 0
+06:45:18:427	95ffb700	parse packet: 236
+06:45:18:427	95ffb700	ETH: job is the same
+06:45:18:427	95ffb700	new buf size: 0
+06:45:18:671	95ffb700	parse packet: 236
+06:45:18:671	95ffb700	ETH: job is the same
+06:45:18:671	95ffb700	new buf size: 0
+06:45:18:916	95ffb700	parse packet: 236
+06:45:18:916	95ffb700	ETH: job is the same
+06:45:18:916	95ffb700	new buf size: 0
+06:45:19:161	95ffb700	parse packet: 236
+06:45:19:161	95ffb700	ETH: job is the same
+06:45:19:161	95ffb700	new buf size: 0
+06:45:19:404	95ffb700	parse packet: 236
+06:45:19:404	95ffb700	ETH: job is the same
+06:45:19:404	95ffb700	new buf size: 0
+06:45:19:649	95ffb700	parse packet: 236
+06:45:19:649	95ffb700	ETH: job is the same
+06:45:19:649	95ffb700	new buf size: 0
+06:45:19:893	95ffb700	parse packet: 236
+06:45:19:893	95ffb700	ETH: job is the same
+06:45:19:893	95ffb700	new buf size: 0
+06:45:20:144	95ffb700	parse packet: 236
+06:45:20:144	95ffb700	ETH: job is the same
+06:45:20:144	95ffb700	new buf size: 0
+06:45:20:389	95ffb700	parse packet: 236
+06:45:20:389	95ffb700	ETH: job is the same
+06:45:20:389	95ffb700	new buf size: 0
+06:45:20:633	95ffb700	parse packet: 236
+06:45:20:633	95ffb700	ETH: job is the same
+06:45:20:633	95ffb700	new buf size: 0
+06:45:20:921	95ffb700	parse packet: 236
+06:45:20:921	95ffb700	ETH: job is the same
+06:45:20:921	95ffb700	new buf size: 0
+06:45:21:165	95ffb700	parse packet: 236
+06:45:21:165	95ffb700	ETH: job is the same
+06:45:21:165	95ffb700	new buf size: 0
+06:45:21:407	95ffb700	parse packet: 236
+06:45:21:408	95ffb700	ETH: job is the same
+06:45:21:408	95ffb700	new buf size: 0
+06:45:21:669	95ffb700	parse packet: 236
+06:45:21:669	95ffb700	ETH: job is the same
+06:45:21:669	95ffb700	new buf size: 0
+06:45:21:913	95ffb700	parse packet: 236
+06:45:21:913	95ffb700	ETH: job is the same
+06:45:21:913	95ffb700	new buf size: 0
+06:45:21:913	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x32a454b", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:45:21:951	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:45:22:195	95ffb700	parse packet: 236
+06:45:22:195	95ffb700	ETH: job is the same
+06:45:22:195	95ffb700	new buf size: 0
+06:45:22:439	95ffb700	parse packet: 236
+06:45:22:439	95ffb700	ETH: job is the same
+06:45:22:439	95ffb700	new buf size: 0
+06:45:22:698	95ffb700	parse packet: 236
+06:45:22:698	95ffb700	ETH: job is the same
+06:45:22:698	95ffb700	new buf size: 0
+06:45:22:943	95ffb700	parse packet: 236
+06:45:22:943	95ffb700	ETH: job is the same
+06:45:22:943	95ffb700	new buf size: 0
+06:45:23:187	95ffb700	parse packet: 236
+06:45:23:187	95ffb700	ETH: job is the same
+06:45:23:187	95ffb700	new buf size: 0
+06:45:23:431	95ffb700	parse packet: 236
+06:45:23:431	95ffb700	ETH: job is the same
+06:45:23:431	95ffb700	new buf size: 0
+06:45:23:671	95ffb700	parse packet: 236
+06:45:23:671	95ffb700	ETH: job is the same
+06:45:23:671	95ffb700	new buf size: 0
+06:45:23:915	95ffb700	parse packet: 236
+06:45:23:915	95ffb700	ETH: job is the same
+06:45:23:916	95ffb700	new buf size: 0
+06:45:24:160	95ffb700	parse packet: 236
+06:45:24:160	95ffb700	ETH: job is the same
+06:45:24:160	95ffb700	new buf size: 0
+06:45:24:401	95ffb700	parse packet: 236
+06:45:24:402	95ffb700	ETH: job is the same
+06:45:24:402	95ffb700	new buf size: 0
+06:45:24:650	95ffb700	parse packet: 236
+06:45:24:650	95ffb700	ETH: job is the same
+06:45:24:650	95ffb700	new buf size: 0
+06:45:24:895	95ffb700	parse packet: 236
+06:45:24:895	95ffb700	ETH: job is the same
+06:45:24:895	95ffb700	new buf size: 0
+06:45:25:139	95ffb700	parse packet: 236
+06:45:25:139	95ffb700	ETH: job is the same
+06:45:25:139	95ffb700	new buf size: 0
+06:45:25:379	95ffb700	parse packet: 236
+06:45:25:379	95ffb700	ETH: job is the same
+06:45:25:379	95ffb700	new buf size: 0
+06:45:25:623	95ffb700	parse packet: 236
+06:45:25:623	95ffb700	ETH: job is the same
+06:45:25:623	95ffb700	new buf size: 0
+06:45:25:878	95ffb700	parse packet: 236
+06:45:25:878	95ffb700	ETH: job is the same
+06:45:25:878	95ffb700	new buf size: 0
+06:45:26:134	95ffb700	parse packet: 236
+06:45:26:134	95ffb700	ETH: job is the same
+06:45:26:134	95ffb700	new buf size: 0
+06:45:26:379	95ffb700	parse packet: 236
+06:45:26:379	95ffb700	ETH: job is the same
+06:45:26:379	95ffb700	new buf size: 0
+06:45:26:625	95ffb700	parse packet: 236
+06:45:26:625	95ffb700	ETH: job is the same
+06:45:26:625	95ffb700	new buf size: 0
+06:45:26:871	95ffb700	parse packet: 236
+06:45:26:871	95ffb700	ETH: job is the same
+06:45:26:871	95ffb700	new buf size: 0
+06:45:27:117	95ffb700	parse packet: 236
+06:45:27:117	95ffb700	ETH: job is the same
+06:45:27:117	95ffb700	new buf size: 0
+06:45:27:117	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x30fc77a", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:45:27:165	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:45:27:413	95ffb700	parse packet: 236
+06:45:27:413	95ffb700	ETH: job is the same
+06:45:27:413	95ffb700	new buf size: 0
+06:45:27:657	95ffb700	parse packet: 236
+06:45:27:657	95ffb700	ETH: job is the same
+06:45:27:657	95ffb700	new buf size: 0
+06:45:27:903	95ffb700	parse packet: 236
+06:45:27:903	95ffb700	ETH: job is the same
+06:45:27:903	95ffb700	new buf size: 0
+06:45:28:146	95ffb700	parse packet: 236
+06:45:28:146	95ffb700	ETH: job is the same
+06:45:28:146	95ffb700	new buf size: 0
+06:45:28:391	95ffb700	parse packet: 236
+06:45:28:391	95ffb700	ETH: job is the same
+06:45:28:391	95ffb700	new buf size: 0
+06:45:28:635	95ffb700	parse packet: 236
+06:45:28:635	95ffb700	ETH: job is the same
+06:45:28:635	95ffb700	new buf size: 0
+06:45:28:881	95ffb700	parse packet: 236
+06:45:28:881	95ffb700	ETH: job is the same
+06:45:28:881	95ffb700	new buf size: 0
+06:45:29:125	95ffb700	parse packet: 236
+06:45:29:125	95ffb700	ETH: job is the same
+06:45:29:125	95ffb700	new buf size: 0
+06:45:29:369	95ffb700	parse packet: 236
+06:45:29:369	95ffb700	ETH: job is the same
+06:45:29:369	95ffb700	new buf size: 0
+06:45:29:553	97fff700	ETH: put share nonce bc05fa5c6944064a
+06:45:29:553	97fff700	ETH round found 1 shares
+06:45:29:562	95ffb700	ETH: 10/10/17-06:45:29 - SHARE FOUND - (GPU 0)
+06:45:29:562	95ffb700	http send request: {"jsonrpc":"2.0", "id":4,"method":"eth_submitWork","params":["0xbc05fa5c6944064a","0x6f9ed5c56b3323e70f404fbdcdce2a1b445a99bc615dc2414d9a319093109ee5","0x207e53035584c09a748cb22f1c3019562475e7eb7dd8969edd662190ed75f7d4"]}
+06:45:29:720	95ffb700	http got answer: {"id":4,"jsonrpc":"2.0","result":true}
+
+06:45:29:720	95ffb700	ETH: Share accepted!
+06:45:29:762	95ffb700	parse packet: 236
+06:45:29:762	95ffb700	ETH: job is the same
+06:45:29:762	95ffb700	new buf size: 0
+06:45:30:018	95ffb700	parse packet: 236
+06:45:30:018	95ffb700	ETH: job is the same
+06:45:30:018	95ffb700	new buf size: 0
+06:45:30:259	95ffb700	parse packet: 236
+06:45:30:259	95ffb700	ETH: job is the same
+06:45:30:259	95ffb700	new buf size: 0
+06:45:30:509	95ffb700	parse packet: 236
+06:45:30:509	95ffb700	ETH: job is the same
+06:45:30:509	95ffb700	new buf size: 0
+06:45:30:753	95ffb700	parse packet: 236
+06:45:30:753	95ffb700	ETH: job is the same
+06:45:30:753	95ffb700	new buf size: 0
+06:45:30:993	95ffb700	parse packet: 236
+06:45:30:993	95ffb700	ETH: job is the same
+06:45:30:994	95ffb700	new buf size: 0
+06:45:31:237	95ffb700	parse packet: 236
+06:45:31:237	95ffb700	ETH: job is the same
+06:45:31:237	95ffb700	new buf size: 0
+06:45:31:481	95ffb700	parse packet: 236
+06:45:31:481	95ffb700	ETH: job is the same
+06:45:31:481	95ffb700	new buf size: 0
+06:45:31:728	95ffb700	parse packet: 236
+06:45:31:728	95ffb700	ETH: job is the same
+06:45:31:728	95ffb700	new buf size: 0
+06:45:31:973	95ffb700	parse packet: 236
+06:45:31:973	95ffb700	ETH: job is the same
+06:45:31:973	95ffb700	new buf size: 0
+06:45:32:213	95ffb700	parse packet: 236
+06:45:32:214	95ffb700	ETH: job is the same
+06:45:32:214	95ffb700	new buf size: 0
+06:45:32:214	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x3246ad7", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:45:32:255	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:45:32:501	95ffb700	parse packet: 236
+06:45:32:501	95ffb700	ETH: job is the same
+06:45:32:501	95ffb700	new buf size: 0
+06:45:32:748	95ffb700	parse packet: 236
+06:45:32:748	95ffb700	ETH: job is the same
+06:45:32:748	95ffb700	new buf size: 0
+06:45:32:990	95ffb700	parse packet: 236
+06:45:32:990	95ffb700	ETH: job is the same
+06:45:32:990	95ffb700	new buf size: 0
+06:45:33:235	95ffb700	parse packet: 236
+06:45:33:235	95ffb700	ETH: job is the same
+06:45:33:235	95ffb700	new buf size: 0
+06:45:33:479	95ffb700	parse packet: 236
+06:45:33:479	95ffb700	ETH: job is the same
+06:45:33:479	95ffb700	new buf size: 0
+06:45:33:723	95ffb700	parse packet: 236
+06:45:33:723	95ffb700	ETH: job is the same
+06:45:33:723	95ffb700	new buf size: 0
+06:45:33:967	95ffb700	parse packet: 236
+06:45:33:967	95ffb700	ETH: job is the same
+06:45:33:967	95ffb700	new buf size: 0
+06:45:34:211	95ffb700	parse packet: 236
+06:45:34:212	95ffb700	ETH: job is the same
+06:45:34:212	95ffb700	new buf size: 0
+06:45:34:455	95ffb700	parse packet: 236
+06:45:34:455	95ffb700	ETH: job is the same
+06:45:34:455	95ffb700	new buf size: 0
+06:45:34:699	95ffb700	parse packet: 236
+06:45:34:699	95ffb700	ETH: job is the same
+06:45:34:699	95ffb700	new buf size: 0
+06:45:34:943	95ffb700	parse packet: 236
+06:45:34:943	95ffb700	ETH: job is the same
+06:45:34:943	95ffb700	new buf size: 0
+06:45:35:188	95ffb700	parse packet: 236
+06:45:35:188	95ffb700	ETH: job is the same
+06:45:35:188	95ffb700	new buf size: 0
+06:45:35:437	95ffb700	parse packet: 236
+06:45:35:437	95ffb700	ETH: job is the same
+06:45:35:437	95ffb700	new buf size: 0
+06:45:35:681	95ffb700	parse packet: 236
+06:45:35:681	95ffb700	ETH: job is the same
+06:45:35:681	95ffb700	new buf size: 0
+06:45:35:925	95ffb700	parse packet: 236
+06:45:35:925	95ffb700	ETH: job is the same
+06:45:35:925	95ffb700	new buf size: 0
+06:45:36:173	95ffb700	parse packet: 236
+06:45:36:173	95ffb700	ETH: job is the same
+06:45:36:173	95ffb700	new buf size: 0
+06:45:36:417	95ffb700	parse packet: 236
+06:45:36:417	95ffb700	ETH: job is the same
+06:45:36:417	95ffb700	new buf size: 0
+06:45:36:661	95ffb700	parse packet: 236
+06:45:36:661	95ffb700	ETH: job is the same
+06:45:36:661	95ffb700	new buf size: 0
+06:45:36:920	95ffb700	parse packet: 236
+06:45:36:920	95ffb700	ETH: job is the same
+06:45:36:920	95ffb700	new buf size: 0
+06:45:37:165	95ffb700	parse packet: 236
+06:45:37:165	95ffb700	ETH: job is the same
+06:45:37:165	95ffb700	new buf size: 0
+06:45:37:409	95ffb700	parse packet: 236
+06:45:37:409	95ffb700	ETH: job is the same
+06:45:37:409	95ffb700	new buf size: 0
+06:45:37:409	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x3237dc0", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:45:37:453	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:45:37:697	95ffb700	parse packet: 236
+06:45:37:697	95ffb700	ETH: job is the same
+06:45:37:697	95ffb700	new buf size: 0
+06:45:37:949	95ffb700	parse packet: 236
+06:45:37:949	95ffb700	ETH: job is the same
+06:45:37:949	95ffb700	new buf size: 0
+06:45:38:193	95ffb700	parse packet: 236
+06:45:38:193	95ffb700	ETH: job is the same
+06:45:38:193	95ffb700	new buf size: 0
+06:45:38:433	95ffb700	parse packet: 236
+06:45:38:434	95ffb700	ETH: job is the same
+06:45:38:434	95ffb700	new buf size: 0
+06:45:38:683	95ffb700	parse packet: 236
+06:45:38:683	95ffb700	ETH: job is the same
+06:45:38:684	95ffb700	new buf size: 0
+06:45:38:932	95ffb700	parse packet: 236
+06:45:38:932	95ffb700	ETH: job is the same
+06:45:38:932	95ffb700	new buf size: 0
+06:45:39:177	95ffb700	parse packet: 236
+06:45:39:177	95ffb700	ETH: job is the same
+06:45:39:177	95ffb700	new buf size: 0
+06:45:39:340	b505c700	GPU0 t=48C fan=80%, GPU1 t=49C fan=80%
+06:45:39:340	b505c700	em hbt: 162, dm hbt: 1, fm hbt: 29, 
+06:45:39:340	b505c700	watchdog - thread 0 (gpu0), hb time 53
+06:45:39:340	b505c700	watchdog - thread 1 (gpu0), hb time 166
+06:45:39:340	b505c700	watchdog - thread 2 (gpu1), hb time 9
+06:45:39:340	b505c700	watchdog - thread 3 (gpu1), hb time 120
+06:45:39:421	95ffb700	parse packet: 236
+06:45:39:421	95ffb700	ETH: job is the same
+06:45:39:421	95ffb700	new buf size: 0
+06:45:39:667	95ffb700	parse packet: 236
+06:45:39:667	95ffb700	ETH: job is the same
+06:45:39:667	95ffb700	new buf size: 0
+06:45:39:911	95ffb700	parse packet: 236
+06:45:39:911	95ffb700	ETH: job is the same
+06:45:39:911	95ffb700	new buf size: 0
+06:45:40:155	95ffb700	parse packet: 236
+06:45:40:155	95ffb700	ETH: job is the same
+06:45:40:155	95ffb700	new buf size: 0
+06:45:40:399	95ffb700	parse packet: 236
+06:45:40:399	95ffb700	ETH: job is the same
+06:45:40:399	95ffb700	new buf size: 0
+06:45:40:643	95ffb700	parse packet: 236
+06:45:40:643	95ffb700	ETH: job is the same
+06:45:40:643	95ffb700	new buf size: 0
+06:45:40:895	95ffb700	parse packet: 236
+06:45:40:895	95ffb700	ETH: job is the same
+06:45:40:895	95ffb700	new buf size: 0
+06:45:41:139	95ffb700	parse packet: 236
+06:45:41:139	95ffb700	ETH: job is the same
+06:45:41:139	95ffb700	new buf size: 0
+06:45:41:381	95ffb700	parse packet: 236
+06:45:41:381	95ffb700	ETH: job is the same
+06:45:41:381	95ffb700	new buf size: 0
+06:45:41:628	95ffb700	parse packet: 236
+06:45:41:628	95ffb700	ETH: job is the same
+06:45:41:628	95ffb700	new buf size: 0
+06:45:41:874	95ffb700	parse packet: 236
+06:45:41:874	95ffb700	ETH: job is the same
+06:45:41:874	95ffb700	new buf size: 0
+06:45:42:117	95ffb700	parse packet: 236
+06:45:42:117	95ffb700	ETH: job is the same
+06:45:42:117	95ffb700	new buf size: 0
+06:45:42:357	95ffb700	parse packet: 236
+06:45:42:357	95ffb700	ETH: job is the same
+06:45:42:357	95ffb700	new buf size: 0
+06:45:42:601	95ffb700	parse packet: 236
+06:45:42:601	95ffb700	ETH: job is the same
+06:45:42:601	95ffb700	new buf size: 0
+06:45:42:601	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x2e4eeb8", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:45:42:639	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:45:42:888	95ffb700	parse packet: 236
+06:45:42:888	95ffb700	ETH: job is the same
+06:45:42:888	95ffb700	new buf size: 0
+06:45:43:138	95ffb700	parse packet: 236
+06:45:43:138	95ffb700	ETH: job is the same
+06:45:43:138	95ffb700	new buf size: 0
+06:45:43:383	95ffb700	parse packet: 236
+06:45:43:383	95ffb700	ETH: job is the same
+06:45:43:383	95ffb700	new buf size: 0
+06:45:43:629	95ffb700	parse packet: 236
+06:45:43:629	95ffb700	ETH: job is the same
+06:45:43:629	95ffb700	new buf size: 0
+06:45:43:873	95ffb700	parse packet: 236
+06:45:43:873	95ffb700	ETH: job is the same
+06:45:43:873	95ffb700	new buf size: 0
+06:45:44:129	95ffb700	parse packet: 236
+06:45:44:129	95ffb700	ETH: job is the same
+06:45:44:129	95ffb700	new buf size: 0
+06:45:44:373	95ffb700	parse packet: 236
+06:45:44:373	95ffb700	ETH: job is the same
+06:45:44:373	95ffb700	new buf size: 0
+06:45:44:617	95ffb700	parse packet: 236
+06:45:44:617	95ffb700	ETH: job is the same
+06:45:44:617	95ffb700	new buf size: 0
+06:45:44:861	95ffb700	parse packet: 236
+06:45:44:861	95ffb700	ETH: job is the same
+06:45:44:861	95ffb700	new buf size: 0
+06:45:45:101	95ffb700	parse packet: 236
+06:45:45:101	95ffb700	ETH: job is the same
+06:45:45:102	95ffb700	new buf size: 0
+06:45:45:345	95ffb700	parse packet: 236
+06:45:45:345	95ffb700	ETH: job is the same
+06:45:45:345	95ffb700	new buf size: 0
+06:45:45:589	95ffb700	parse packet: 236
+06:45:45:589	95ffb700	ETH: job is the same
+06:45:45:589	95ffb700	new buf size: 0
+06:45:45:836	95ffb700	parse packet: 236
+06:45:45:837	95ffb700	ETH: job is the same
+06:45:45:837	95ffb700	new buf size: 0
+06:45:46:081	95ffb700	parse packet: 236
+06:45:46:081	95ffb700	ETH: job is the same
+06:45:46:081	95ffb700	new buf size: 0
+06:45:46:322	95ffb700	parse packet: 236
+06:45:46:322	95ffb700	ETH: job is the same
+06:45:46:322	95ffb700	new buf size: 0
+06:45:46:567	95ffb700	parse packet: 236
+06:45:46:567	95ffb700	ETH: job is the same
+06:45:46:567	95ffb700	new buf size: 0
+06:45:46:813	95ffb700	parse packet: 236
+06:45:46:813	95ffb700	ETH: job is the same
+06:45:46:813	95ffb700	new buf size: 0
+06:45:47:053	95ffb700	parse packet: 236
+06:45:47:053	95ffb700	ETH: job is the same
+06:45:47:053	95ffb700	new buf size: 0
+06:45:47:293	95ffb700	parse packet: 236
+06:45:47:293	95ffb700	ETH: job is the same
+06:45:47:293	95ffb700	new buf size: 0
+06:45:47:537	95ffb700	parse packet: 236
+06:45:47:537	95ffb700	ETH: job is the same
+06:45:47:537	95ffb700	new buf size: 0
+06:45:47:783	95ffb700	parse packet: 236
+06:45:47:783	95ffb700	ETH: job is the same
+06:45:47:783	95ffb700	new buf size: 0
+06:45:47:783	95ffb700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x3279465", "0x000000000000000000000000000000000000000000000000000000001cd87fde"]}
+
+06:45:47:822	95ffb700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:45:48:067	95ffb700	parse packet: 236
+06:45:48:067	95ffb700	ETH: job is the same
+06:45:48:067	95ffb700	new buf size: 0
+06:45:48:321	95ffb700	parse packet: 236
+06:45:48:321	95ffb700	ETH: job is the same
+06:45:48:321	95ffb700	new buf size: 0
+06:45:48:574	95ffb700	parse packet: 236
+06:45:48:574	95ffb700	ETH: job is the same
+06:45:48:574	95ffb700	new buf size: 0
+06:45:48:822	95ffb700	parse packet: 236
+06:45:48:822	95ffb700	ETH: job is the same
+06:45:48:822	95ffb700	new buf size: 0
+06:45:49:067	95ffb700	parse packet: 236
+06:45:49:067	95ffb700	ETH: job is the same
+06:45:49:067	95ffb700	new buf size: 0
+06:45:49:313	95ffb700	parse packet: 236
+06:45:49:313	95ffb700	ETH: job is the same
+06:45:49:313	95ffb700	new buf size: 0
+06:45:49:557	95ffb700	parse packet: 236
+06:45:49:557	95ffb700	ETH: job is the same
+06:45:49:557	95ffb700	new buf size: 0
+06:45:49:797	95ffb700	parse packet: 236
+06:45:49:797	95ffb700	ETH: job is the same
+06:45:49:797	95ffb700	new buf size: 0
+06:45:50:041	95ffb700	parse packet: 236
+06:45:50:041	95ffb700	ETH: job is the same
+06:45:50:041	95ffb700	new buf size: 0
+06:45:50:281	95ffb700	parse packet: 236
+06:45:50:281	95ffb700	ETH: job is the same
+06:45:50:282	95ffb700	new buf size: 0
+06:45:50:527	95ffb700	parse packet: 236
+06:45:50:527	95ffb700	ETH: job is the same
+06:45:50:527	95ffb700	new buf size: 0
+06:45:50:775	95ffb700	parse packet: 236
+06:45:50:775	95ffb700	ETH: job is the same
+06:45:50:775	95ffb700	new buf size: 0
+06:45:51:015	95ffb700	parse packet: 236
+06:45:51:015	95ffb700	ETH: job is the same
+06:45:51:015	95ffb700	new buf size: 0
+06:45:51:262	95ffb700	parse packet: 236
+06:45:51:262	95ffb700	ETH: job is the same
+06:45:51:262	95ffb700	new buf size: 0
+06:45:51:503	95ffb700	parse packet: 236
+06:45:51:503	95ffb700	ETH: job is the same
+06:45:51:504	95ffb700	new buf size: 0
+06:45:51:750	95ffb700	parse packet: 236
+06:45:51:750	95ffb700	ETH: job is the same
+06:45:51:750	95ffb700	new buf size: 0

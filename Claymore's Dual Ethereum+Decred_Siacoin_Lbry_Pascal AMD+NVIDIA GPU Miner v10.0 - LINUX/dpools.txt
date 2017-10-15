@@ -1,0 +1,9 @@
+# WARNING! Remove "#" characters to enable lines, with "#" they are disabled and will be ignored by miner! Check README for details.
+
+# POOL: stratum+tcp://dcr.suprnova.cc:3252, WALLET: Redhex.my, PSW: x
+
+#POOL: stratum+tcp://sia-eu1.nanopool.org:7777, WALLET: 7d8f8b65865d651aa9c4c51a626cbd13d9742f8f54709c0e8ed5488cdd402c43cb51f16ae503/zachberling@gmail.com, PSW: x, WORKER: , ESM: 0, ALLPOOLS: 0
+#POOL: stratum+tcp://sia-eu2.nanopool.org:7777, WALLET: 7d8f8b65865d651aa9c4c51a626cbd13d9742f8f54709c0e8ed5488cdd402c43cb51f16ae503/zachberling@gmail.com, PSW: x, WORKER: , ESM: 0, ALLPOOLS: 0
+#POOL: stratum+tcp://sia-us-east1.nanopool.org:7777, WALLET: 7d8f8b65865d651aa9c4c51a626cbd13d9742f8f54709c0e8ed5488cdd402c43cb51f16ae503/zachberling@gmail.com, PSW: x, WORKER: , ESM: 0, ALLPOOLS: 0
+#POOL: stratum+tcp://sia-us-west1.nanopool.org:7777, WALLET: 7d8f8b65865d651aa9c4c51a626cbd13d9742f8f54709c0e8ed5488cdd402c43cb51f16ae503/zachberling@gmail.com, PSW: x, WORKER: , ESM: 0, ALLPOOLS: 0
+#POOL: stratum+tcp://sia-asia1.nanopool.org:7777, WALLET: 7d8f8b65865d651aa9c4c51a626cbd13d9742f8f54709c0e8ed5488cdd402c43cb51f16ae503/zachberling@gmail.com, PSW: x, WORKER: , ESM: 0, ALLPOOLS: 0

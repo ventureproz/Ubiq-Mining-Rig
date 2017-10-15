@@ -1,0 +1,252 @@
+06:46:05:571	d8bdc740	args: -epool http://us.ubiqpool.io:8888/0x78C8ebB6434d0a165B7A2f1ad7b7447A9Aaae68a/VProz1 -epsw x -allcoins 1 -dpool stratum+tcp://sia-us-east1.nanopool.org:7777 -dwal 7d8f8b65865d651aa9c4c51a626cbd13d9742f8/Vproz1 -dcoin sia 
+06:46:05:572	d8bdc740	
+06:46:05:572	d8bdc740	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+06:46:05:573	d8bdc740	บ     Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v10.0      บ
+06:46:05:573	d8bdc740	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+06:46:05:573	d8bdc740	
+06:46:05:773	d8bdc740	ETH: 1 pool is specified
+06:46:05:773	d8bdc740	Main Ethereum pool is us.ubiqpool.io:8888
+06:46:05:774	d8bdc740	SC: 1 pool is specified
+06:46:05:774	d8bdc740	Main Siacoin pool is sia-us-east1.nanopool.org:7777
+06:46:05:887	d8bdc740	OpenCL platform: NVIDIA CUDA
+06:46:05:887	d8bdc740	AMD OpenCL platform not found 
+06:46:05:898	d8bdc740	CUDA initializing...
+
+06:46:05:898	d8bdc740	NVIDIA Cards available: 2 
+06:46:05:898	d8bdc740	CUDA Driver Version/Runtime Version: 8.0/8.0
+06:46:05:901	d8bdc740	GPU #0: GeForce GTX 1070, 8112 MB available, 15 compute units, capability: 6.1
+
+06:46:05:902	d8bdc740	GPU #1: GeForce GTX 1070, 8114 MB available, 15 compute units, capability: 6.1
+
+06:46:05:902	d8bdc740	Total cards: 2 
+06:46:09:903	d8bdc740	No AMD cards in the list, ADL library will not be used.
+06:46:09:907	d8bdc740	NVML version: 8.375.66
+06:46:10:237	b27fc700	ETH - connecting to us.ubiqpool.io:8888/0x78C8ebB6434d0a165B7A2f1ad7b7447A9Aaae68a/VProz1
+06:46:10:237	b27fc700	http send request: {"jsonrpc":"2.0", "method": "eth_getWork", "params": [], "id":0}
+06:46:10:337	d8bdc740	DUAL MINING MODE ENABLED: ETHEREUM+SIACOIN
+06:46:10:337	d8bdc740	ETH: HTTP SOLO mode
+06:46:10:337	d8bdc740	Ethereum HTTP requests time (-etht) is set to 200 ms
+06:46:10:338	d8bdc740	"-allcoins" option is set, default pools will be used for devfee, check "Readme" file for details.
+06:46:10:338	d8bdc740	Watchdog enabled
+06:46:10:338	d8bdc740	Remote management (READ-ONLY MODE) is enabled on port 3333
+06:46:10:338	d8bdc740	
+06:46:10:352	b27fc700	http got answer: {"id":0,"jsonrpc":"2.0","result":["0x6f9ed5c56b3323e70f404fbdcdce2a1b445a99bc615dc2414d9a319093109ee5","0xc307e5620454e771052a14bea2468aa36e4d01104c1bb0589fb96c692da7cebc","0x0112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba"]}
+
+06:46:10:352	b27fc700	ETH: Connected (us.ubiqpool.io:8888/0x78C8ebB6434d0a165B7A2f1ad7b7447A9Aaae68a/VProz1)
+06:46:10:353	b27fc700	parse packet: 236
+06:46:10:353	b27fc700	ETH: job changed
+06:46:10:353	b27fc700	new buf size: 0
+06:46:10:362	b1ffb700	 SC: Stratum - connecting to 'sia-us-east1.nanopool.org' <158.69.86.187> port 7777
+06:46:10:401	b1ffb700	send: {"id": 1, "method": "mining.subscribe", "params": []}
+
+06:46:10:401	b1ffb700	send: {"id": 5, "method": "mining.extranonce.subscribe", "params": []}
+
+06:46:10:401	b1ffb700	send: {"id": 2, "method": "mining.authorize", "params": ["7d8f8b65865d651aa9c4c51a626cbd13d9742f8/Vproz1",""]}
+
+06:46:10:401	b1ffb700	 SC: Stratum - Connected (sia-us-east1.nanopool.org:7777)
+06:46:10:440	c0f85700	Setting DAG epoch #8...
+06:46:10:597	b27fc700	parse packet: 236
+06:46:10:597	b27fc700	ETH: job is the same
+06:46:10:597	b27fc700	new buf size: 0
+06:46:10:612	b1ffb700	got 676 bytes
+06:46:10:612	b1ffb700	buf: {"jsonrpc":"2.0","id":1,"result":true}
+{"id":6,"jsonrpc":"2.0","params":["0","0x000000000000001ec379bfe8ae5a7934d6bbf6e4a348b61ad58341d0789b578e0000000000000000e2a4dc5900000000319d9bfe854dbc746bcfb71bc817f16caa1944ba3608572b0d327fe67adc0588","0x0000000007547ff5d321871ff4fb4f118b8d13a30a1ff7b317f3c5b20629578a"],"method":"mining.notify"}
+{"jsonrpc":"2.0","id":2,"result":true}
+{"id":6,"jsonrpc":"2.0","params":["1","0x000000000000001ec379bfe8ae5a7934d6bbf6e4a348b61ad58341d0789b578e0000000000000000e2a4dc5900000000a3b54835f433284c0613d5b01bed903ca6d5b7221022eb7d6c8a8d36161b278a","0x0000000007547ff5d321871ff4fb4f118b8d13a30a1ff7b317f3c5b20629578a"],"method":"mining.notify"}
+
+06:46:10:613	b1ffb700	parse packet: 38
+06:46:10:613	b1ffb700	remove first packet 637
+06:46:10:613	b1ffb700	new buf size: 637
+06:46:10:613	b1ffb700	parse packet: 298
+06:46:10:613	b1ffb700	sc: job changed
+06:46:10:613	b1ffb700	remove first packet 338
+06:46:10:613	b1ffb700	new buf size: 338
+06:46:10:613	b1ffb700	parse packet: 38
+06:46:10:613	b1ffb700	 SC: Authorized
+06:46:10:613	b1ffb700	remove first packet 299
+06:46:10:613	b1ffb700	new buf size: 299
+06:46:10:613	b1ffb700	parse packet: 298
+06:46:10:613	b1ffb700	sc: job changed
+06:46:10:613	b1ffb700	new buf size: 0
+06:46:10:847	b27fc700	parse packet: 236
+06:46:10:847	b27fc700	ETH: job is the same
+06:46:10:847	b27fc700	new buf size: 0
+06:46:11:091	b27fc700	parse packet: 236
+06:46:11:091	b27fc700	ETH: job is the same
+06:46:11:091	b27fc700	new buf size: 0
+06:46:11:337	b27fc700	parse packet: 236
+06:46:11:337	b27fc700	ETH: job is the same
+06:46:11:339	b27fc700	new buf size: 0
+06:46:11:589	b27fc700	parse packet: 236
+06:46:11:589	b27fc700	ETH: job is the same
+06:46:11:589	b27fc700	new buf size: 0
+06:46:11:711	b2ffd700	Setting DAG epoch #8 for GPU1
+06:46:11:711	b2ffd700	Create GPU buffer for GPU1
+06:46:11:712	c0f85700	Setting DAG epoch #8 for GPU0
+06:46:11:712	c0f85700	Create GPU buffer for GPU0
+06:46:11:835	b27fc700	parse packet: 236
+06:46:11:835	b27fc700	ETH: job is the same
+06:46:11:835	b27fc700	new buf size: 0
+06:46:12:076	b27fc700	parse packet: 236
+06:46:12:076	b27fc700	ETH: job is the same
+06:46:12:076	b27fc700	new buf size: 0
+06:46:12:321	b27fc700	parse packet: 236
+06:46:12:321	b27fc700	ETH: job is the same
+06:46:12:321	b27fc700	new buf size: 0
+06:46:12:569	b27fc700	parse packet: 236
+06:46:12:569	b27fc700	ETH: job is the same
+06:46:12:569	b27fc700	new buf size: 0
+06:46:12:813	b27fc700	parse packet: 236
+06:46:12:814	b27fc700	ETH: job is the same
+06:46:12:814	b27fc700	new buf size: 0
+06:46:13:057	b27fc700	parse packet: 236
+06:46:13:057	b27fc700	ETH: job is the same
+06:46:13:057	b27fc700	new buf size: 0
+06:46:13:307	b27fc700	parse packet: 236
+06:46:13:307	b27fc700	ETH: job is the same
+06:46:13:307	b27fc700	new buf size: 0
+06:46:13:555	b27fc700	parse packet: 236
+06:46:13:555	b27fc700	ETH: job is the same
+06:46:13:555	b27fc700	new buf size: 0
+06:46:13:799	b27fc700	parse packet: 236
+06:46:13:799	b27fc700	ETH: job is the same
+06:46:13:799	b27fc700	new buf size: 0
+06:46:14:048	b27fc700	parse packet: 236
+06:46:14:048	b27fc700	ETH: job is the same
+06:46:14:048	b27fc700	new buf size: 0
+06:46:14:293	b27fc700	parse packet: 236
+06:46:14:293	b27fc700	ETH: job is the same
+06:46:14:293	b27fc700	new buf size: 0
+06:46:14:537	b27fc700	parse packet: 236
+06:46:14:537	b27fc700	ETH: job is the same
+06:46:14:538	b27fc700	new buf size: 0
+06:46:14:777	b27fc700	parse packet: 236
+06:46:14:778	b27fc700	ETH: job is the same
+06:46:14:778	b27fc700	new buf size: 0
+06:46:14:955	c0f85700	GPU0 DAG creation time - 3199 ms
+06:46:14:955	c0f85700	Setting DAG epoch #8 for GPU0 done
+06:46:15:020	b27fc700	parse packet: 236
+06:46:15:020	b27fc700	ETH: job is the same
+06:46:15:020	b27fc700	new buf size: 0
+06:46:15:041	b2ffd700	GPU1 DAG creation time - 3287 ms
+06:46:15:041	b2ffd700	Setting DAG epoch #8 for GPU1 done
+06:46:15:265	b27fc700	parse packet: 236
+06:46:15:266	b27fc700	ETH: job is the same
+06:46:15:266	b27fc700	new buf size: 0
+06:46:15:509	b27fc700	parse packet: 236
+06:46:15:509	b27fc700	ETH: job is the same
+06:46:15:509	b27fc700	new buf size: 0
+06:46:15:510	b27fc700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x32a91e5", "0x000000000000000000000000000000000000000000000000000000000727220d"]}
+
+06:46:15:551	b27fc700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:46:15:795	b27fc700	parse packet: 236
+06:46:15:795	b27fc700	ETH: job is the same
+06:46:15:795	b27fc700	new buf size: 0
+06:46:16:039	b27fc700	parse packet: 236
+06:46:16:039	b27fc700	ETH: job is the same
+06:46:16:039	b27fc700	new buf size: 0
+06:46:16:283	b27fc700	parse packet: 236
+06:46:16:283	b27fc700	ETH: job is the same
+06:46:16:283	b27fc700	new buf size: 0
+06:46:16:467	c0f85700	ETH: put share nonce 4d0e6bd80198a810
+06:46:16:467	c0f85700	ETH round found 1 shares
+06:46:16:476	b27fc700	ETH: 10/10/17-06:46:16 - SHARE FOUND - (GPU 0)
+06:46:16:476	b27fc700	http send request: {"jsonrpc":"2.0", "id":4,"method":"eth_submitWork","params":["0x4d0e6bd80198a810","0x6f9ed5c56b3323e70f404fbdcdce2a1b445a99bc615dc2414d9a319093109ee5","0x037a77d15aa5a300cba98c8cf8f752902dc9c0ee1965c9b06e3b8708f7753751"]}
+06:46:16:739	b27fc700	http got answer: {"id":4,"jsonrpc":"2.0","result":true}
+
+06:46:16:739	b27fc700	ETH: Share accepted!
+06:46:16:790	b27fc700	parse packet: 236
+06:46:16:790	b27fc700	ETH: job is the same
+06:46:16:790	b27fc700	new buf size: 0
+06:46:17:046	b27fc700	parse packet: 236
+06:46:17:046	b27fc700	ETH: job is the same
+06:46:17:046	b27fc700	new buf size: 0
+06:46:17:309	b27fc700	parse packet: 236
+06:46:17:309	b27fc700	ETH: job is the same
+06:46:17:309	b27fc700	new buf size: 0
+06:46:17:556	b27fc700	parse packet: 236
+06:46:17:556	b27fc700	ETH: job is the same
+06:46:17:556	b27fc700	new buf size: 0
+06:46:17:799	b27fc700	parse packet: 236
+06:46:17:799	b27fc700	ETH: job is the same
+06:46:17:799	b27fc700	new buf size: 0
+06:46:18:043	b27fc700	parse packet: 236
+06:46:18:043	b27fc700	ETH: job is the same
+06:46:18:043	b27fc700	new buf size: 0
+06:46:18:288	b27fc700	parse packet: 236
+06:46:18:288	b27fc700	ETH: job is the same
+06:46:18:288	b27fc700	new buf size: 0
+06:46:18:552	b27fc700	parse packet: 236
+06:46:18:553	b27fc700	ETH: job is the same
+06:46:18:553	b27fc700	new buf size: 0
+06:46:18:797	b27fc700	parse packet: 236
+06:46:18:797	b27fc700	ETH: job is the same
+06:46:18:797	b27fc700	new buf size: 0
+06:46:19:041	b27fc700	parse packet: 236
+06:46:19:041	b27fc700	ETH: job is the same
+06:46:19:042	b27fc700	new buf size: 0
+06:46:19:285	b27fc700	parse packet: 236
+06:46:19:285	b27fc700	ETH: job is the same
+06:46:19:285	b27fc700	new buf size: 0
+06:46:19:530	b27fc700	parse packet: 236
+06:46:19:530	b27fc700	ETH: job is the same
+06:46:19:530	b27fc700	new buf size: 0
+06:46:19:773	b27fc700	parse packet: 236
+06:46:19:773	b27fc700	ETH: job is the same
+06:46:19:773	b27fc700	new buf size: 0
+06:46:20:017	b27fc700	parse packet: 236
+06:46:20:017	b27fc700	ETH: job is the same
+06:46:20:017	b27fc700	new buf size: 0
+06:46:20:261	b27fc700	parse packet: 236
+06:46:20:261	b27fc700	ETH: job is the same
+06:46:20:261	b27fc700	new buf size: 0
+06:46:20:505	b27fc700	parse packet: 236
+06:46:20:505	b27fc700	ETH: job is the same
+06:46:20:505	b27fc700	new buf size: 0
+06:46:20:763	b27fc700	parse packet: 236
+06:46:20:763	b27fc700	ETH: job is the same
+06:46:20:763	b27fc700	new buf size: 0
+06:46:20:763	b27fc700	http send request: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x329eaf7", "0x000000000000000000000000000000000000000000000000000000000727220d"]}
+
+06:46:20:802	b27fc700	http got answer: {"id":6,"jsonrpc":"2.0","result":true}
+
+06:46:21:050	b27fc700	parse packet: 236
+06:46:21:050	b27fc700	ETH: job is the same
+06:46:21:050	b27fc700	new buf size: 0
+06:46:21:295	b27fc700	parse packet: 236
+06:46:21:295	b27fc700	ETH: job is the same
+06:46:21:295	b27fc700	new buf size: 0
+06:46:21:537	b27fc700	parse packet: 236
+06:46:21:537	b27fc700	ETH: job is the same
+06:46:21:538	b27fc700	new buf size: 0
+06:46:21:783	b27fc700	parse packet: 236
+06:46:21:783	b27fc700	ETH: job is the same
+06:46:21:783	b27fc700	new buf size: 0
+06:46:22:028	b27fc700	parse packet: 236
+06:46:22:028	b27fc700	ETH: job is the same
+06:46:22:028	b27fc700	new buf size: 0
+06:46:22:271	b27fc700	parse packet: 236
+06:46:22:272	b27fc700	ETH: job is the same
+06:46:22:272	b27fc700	new buf size: 0
+06:46:22:515	b27fc700	parse packet: 236
+06:46:22:515	b27fc700	ETH: job is the same
+06:46:22:515	b27fc700	new buf size: 0
+06:46:22:761	b27fc700	parse packet: 236
+06:46:22:761	b27fc700	ETH: job is the same
+06:46:22:762	b27fc700	new buf size: 0
+06:46:23:005	b27fc700	parse packet: 236
+06:46:23:006	b27fc700	ETH: job is the same
+06:46:23:006	b27fc700	new buf size: 0
+06:46:23:249	b27fc700	parse packet: 236
+06:46:23:250	b27fc700	ETH: job is the same
+06:46:23:250	b27fc700	new buf size: 0
+06:46:23:500	b27fc700	parse packet: 236
+06:46:23:500	b27fc700	ETH: job is the same
+06:46:23:500	b27fc700	new buf size: 0
+06:46:23:745	b27fc700	parse packet: 236
+06:46:23:745	b27fc700	ETH: job is the same
+06:46:23:745	b27fc700	new buf size: 0
+06:46:23:994	b27fc700	parse packet: 236
+06:46:23:994	b27fc700	ETH: job is the same
+06:46:23:995	b27fc700	new buf size: 0
