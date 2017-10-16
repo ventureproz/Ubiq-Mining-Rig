@@ -8,6 +8,13 @@ sudo apt-get install git
 
 this will install github onto your linux machine.
 
+The next thing you want to do is to clone this repository onto your machine.
+
+Select the location for this repo from github where it says "Clone or Download"
+
+you will type in the terminal:      git clone https://github.com/ventureproz/Ubiq-Mining-Rig.git
+
+This will create the files on your hard drive.
 
 
 
