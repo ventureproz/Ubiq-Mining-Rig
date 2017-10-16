@@ -1,4 +1,6 @@
 # Ubiq-Mining-Rig
+/*-------- THIS IS A WORK IN PROGRESS PLEASE USE AT YOUR OWN RISK ---------------*/
+
 Informational Guide on how to get a Ubiq/ Eth Mining rig up and runing on Linux's Distro Ubuntu. I will include fan settings as well overclocking settings.
 
 So to properly start using this press ctrl+Alt+T this will open a terminal window
