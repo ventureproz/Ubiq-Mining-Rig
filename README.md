@@ -16,10 +16,23 @@ you will type in the terminal:      git clone https://github.com/ventureproz/Ubi
 
 This will create the files on your hard drive.
 
+Commands you should know when working with linux Terminal:
 
+ls al         (Lists all items in folder)
+cd            (Change Directory allows you to move from one folder to another) Example: cd Desktop/NewFolder   
+sudo          (Gives your permissions to install a file with your password) Example: sudo apt-get install git
 
+To run a basic file goto actual file location and right-click and select Open Terminal this will save you the time having to use ls al and change directory terminal commands
 
+type ls al to see that the newly opened terminal now shows all the files you where looking for.
+if this is the case the first file I would run is the install_dependencies.sh file.
+to do this type:
 
+./install_dependencies.sh
+
+if this does not run properly cause you need root permissions type the following
+
+sudo ./install_dependencies.sh
 
 
 To add more GPU's just label from 0 - 6+  notice in the line of code [gpu:1]/GPUFanControlState=1 where it says  [gpu:1]  the 1 is marking the second GPU in your system. If add another gpu it will look like this: 
