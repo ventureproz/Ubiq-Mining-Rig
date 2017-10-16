@@ -34,14 +34,20 @@ if this does not run properly cause you need root permissions type the following
 
 sudo ./install_dependencies.sh
 
+the next thing we want to do is to open the FanControl-UnderClock.sh file.
+
+This controls our fans and power of our GPU's  (I've used this with both GTX 1070's and GTX 1080's please refer to your gpu's best settings before you begin with this step.)
+
+if you right click the file and open it with gedit you will need to edit the following information:
 
 To add more GPU's just label from 0 - 6+  notice in the line of code [gpu:1]/GPUFanControlState=1 where it says  [gpu:1]  the 1 is marking the second GPU in your system. If add another gpu it will look like this: 
 sudo nvidia-settings -a [gpu:2]/GPUFanControlState=1 -a [fan:1]/GPUTargetFanSpeed=90
 sudo nvidia-settings -a [gpu:3]/GPUFanControlState=1 -a [fan:1]/GPUTargetFanSpeed=90
 sudo nvidia-settings -a [gpu4]/GPUFanControlState=1 -a [fan:1]/GPUTargetFanSpeed=90
 
+If you need to change the fan speed 
 
-
+-a [fan:1]/GPUTargetFanSpeed=70  Notice I changed 90 to 70 this will make the fan slower please make sure to moniter the heat of your GPU when doing this. I prefer to keep my GPU's around 40-48 degrees Celsius. Please refer to your GPU's best temperature settings and set fan speeds accordingly
 
 
 
